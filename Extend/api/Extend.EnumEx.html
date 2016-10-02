@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class EnumEx
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class EnumEx
+   ">
+    <meta name="generator" content="docfx 2.5.4.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="../index.html">
+        		<img id="logo" src="../images/logo.png" height="50" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content">
+              
+              
+              <h1 id="Extend_EnumEx" data-uid="Extend.EnumEx">Class EnumEx
+              </h1>
+              <div class="markdown level0 summary"><pre sourcefile="api/Extend.EnumEx.yml" sourcestartlinenumber="2" sourceendlinenumber="2"><code>Class containing some extension methods for &lt;xref href=&quot;System.Enum&quot; data-throw-if-not-resolved=&quot;false&quot;&gt;&lt;/xref&gt;.
+</code></pre></div>
+              <div class="markdown level0 conceptual"></div>
+              <div class="inheritance">
+                <h5>Inheritance</h5>
+                  <div class="level0"><span class="xref">System.Object</span></div>
+                  <div class="level1"><span class="xref">EnumEx</span></div>
+              </div>
+              <div class="inheritedMembers">
+                <h5>Inherited Members</h5>
+                <div>
+                  <span class="xref">System.Object.Equals(System.Object)</span>
+                </div>
+                <div>
+                  <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+                </div>
+                <div>
+                  <span class="xref">System.Object.GetHashCode()</span>
+                </div>
+                <div>
+                  <span class="xref">System.Object.GetType()</span>
+                </div>
+                <div>
+                  <span class="xref">System.Object.MemberwiseClone()</span>
+                </div>
+                <div>
+                  <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+                </div>
+                <div>
+                  <span class="xref">System.Object.ToString()</span>
+                </div>
+              </div>
+              <h6><strong>Namespace</strong>:Extend</h6>
+              <h6><strong>Assembly</strong>:Extend.dll</h6>
+              <h5 id="Extend_EnumEx_syntax">Syntax</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static class EnumEx</code></pre>
+              </div>
+              <h3 id="methods">Methods
+              </h3>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/davesenn/extend/new/f_docFinal/.Doc/docfx_project/apispec/new?filename=Extend_EnumEx_GetStringValues__1.md&amp;value=---%0Auid%3A%20Extend.EnumEx.GetStringValues%60%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/davesenn/extend/blob/f_docFinal/.Src/Extend/System.Enum/Enum.GetStringValues.cs/#L23">View Source</a>
+              </span>
+              <h4 id="Extend_EnumEx_GetStringValues__1" data-uid="Extend.EnumEx.GetStringValues``1">GetStringValues&lt;T&gt;()</h4>
+              <div class="markdown level1 summary"><pre sourcefile="api/Extend.EnumEx.yml" sourcestartlinenumber="2" sourceendlinenumber="2"><code>Gets the values of the specified enumeration as strings.
+</code></pre></div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static IEnumerable&lt;string&gt; GetStringValues&lt;T&gt;()where T : struct</code></pre>
+              </div>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+                    <td><p sourcefile="api/Extend.EnumEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">All values of the specified enumeration as strings.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="typeParameters">Type Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><em>T</em></td>
+                    <td>The type of the enumeration.</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="exceptions">Exceptions</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Condition</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.ArgumentException</span></td>
+                    <td><p sourcefile="api/Extend.EnumEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">T must be an enumerated type.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/davesenn/extend/new/f_docFinal/.Doc/docfx_project/apispec/new?filename=Extend_EnumEx_GetValueAndStringValue__1.md&amp;value=---%0Auid%3A%20Extend.EnumEx.GetValueAndStringValue%60%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/davesenn/extend/blob/f_docFinal/.Src/Extend/System.Enum/Enum.GetValueAndStringValue.cs/#L23">View Source</a>
+              </span>
+              <h4 id="Extend_EnumEx_GetValueAndStringValue__1" data-uid="Extend.EnumEx.GetValueAndStringValue``1">GetValueAndStringValue&lt;T&gt;()</h4>
+              <div class="markdown level1 summary"><pre sourcefile="api/Extend.EnumEx.yml" sourcestartlinenumber="2" sourceendlinenumber="2"><code>Gets a dictionary containing the string value for each value of the enumeration of the given type.
+</code></pre></div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static IDictionary&lt;T, string&gt; GetValueAndStringValue&lt;T&gt;()where T : struct</code></pre>
+              </div>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Collections.Generic.IDictionary</span>&lt;T, <span class="xref">System.String</span>&gt;</td>
+                    <td><p sourcefile="api/Extend.EnumEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Returns a key value pair for each value of the specified enumeration type.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="typeParameters">Type Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><em>T</em></td>
+                    <td>The type of the enumeration.</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="exceptions">Exceptions</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Condition</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.ArgumentException</span></td>
+                    <td><p sourcefile="api/Extend.EnumEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">T must be an enumerated type.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/davesenn/extend/new/f_docFinal/.Doc/docfx_project/apispec/new?filename=Extend_EnumEx_GetValues_System_Type_.md&amp;value=---%0Auid%3A%20Extend.EnumEx.GetValues(System.Type)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/davesenn/extend/blob/f_docFinal/.Src/Extend/System.Enum/Enum.GetValues.cs/#L59">View Source</a>
+              </span>
+              <h4 id="Extend_EnumEx_GetValues_System_Type_" data-uid="Extend.EnumEx.GetValues(System.Type)">GetValues(Type)</h4>
+              <div class="markdown level1 summary"><pre sourcefile="api/Extend.EnumEx.yml" sourcestartlinenumber="2" sourceendlinenumber="2"><code>Gets the values of the specified enumeration.
+</code></pre></div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static IEnumerable GetValues(Type type)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Type</span></td>
+                    <td><em>type</em></td>
+                    <td><p sourcefile="api/Extend.EnumEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The type of the enumeration.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Collections.IEnumerable</span></td>
+                    <td><p sourcefile="api/Extend.EnumEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">All values of the specified enumeration.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 id="Extend_EnumEx_GetValues_System_Type__remarks">Remarks</h5>
+              <div class="markdown level1 remarks"><pre sourcefile="api/Extend.EnumEx.yml" sourcestartlinenumber="2" sourceendlinenumber="4"><code>How to cast returned values:
+values.Cast{Object}();
+values.Select( x =&amp;gt; Convert.ChangeType( x, type ) );
+</code></pre></div>
+              <h5 class="exceptions">Exceptions</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Condition</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.ArgumentNullException</span></td>
+                    <td><p sourcefile="api/Extend.EnumEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">type can not be null.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.ArgumentException</span></td>
+                    <td><p sourcefile="api/Extend.EnumEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">T must be an enumerated type.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/davesenn/extend/new/f_docFinal/.Doc/docfx_project/apispec/new?filename=Extend_EnumEx_GetValues__1.md&amp;value=---%0Auid%3A%20Extend.EnumEx.GetValues%60%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/davesenn/extend/blob/f_docFinal/.Src/Extend/System.Enum/Enum.GetValues.cs/#L28">View Source</a>
+              </span>
+              <h4 id="Extend_EnumEx_GetValues__1" data-uid="Extend.EnumEx.GetValues``1">GetValues&lt;T&gt;()</h4>
+              <div class="markdown level1 summary"><pre sourcefile="api/Extend.EnumEx.yml" sourcestartlinenumber="2" sourceendlinenumber="2"><code>Gets the values of the specified enumeration.
+</code></pre></div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static IEnumerable&lt;T&gt; GetValues&lt;T&gt;()where T : struct</code></pre>
+              </div>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;T&gt;</td>
+                    <td><p sourcefile="api/Extend.EnumEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">All values of the specified enumeration.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="typeParameters">Type Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><em>T</em></td>
+                    <td>The type of the enumeration.</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="exceptions">Exceptions</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Condition</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.ArgumentException</span></td>
+                    <td><p sourcefile="api/Extend.EnumEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">T must be an enumerated type.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/davesenn/extend/new/f_docFinal/.Doc/docfx_project/apispec/new?filename=Extend_EnumEx_GetValuesExpect_System_Type_System_Object___.md&amp;value=---%0Auid%3A%20Extend.EnumEx.GetValuesExpect(System.Type%2CSystem.Object%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/davesenn/extend/blob/f_docFinal/.Src/Extend/System.Enum/GetValuesExpect.cs/#L51">View Source</a>
+              </span>
+              <h4 id="Extend_EnumEx_GetValuesExpect_System_Type_System_Object___" data-uid="Extend.EnumEx.GetValuesExpect(System.Type,System.Object[])">GetValuesExpect(Type, Object[])</h4>
+              <div class="markdown level1 summary"><pre sourcefile="api/Extend.EnumEx.yml" sourcestartlinenumber="2" sourceendlinenumber="2"><code>Gets all values of the specified enumeration type, expect the specified values.
+</code></pre></div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static IEnumerable GetValuesExpect(Type type, params object[] exceptions)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Type</span></td>
+                    <td><em>type</em></td>
+                    <td><p sourcefile="api/Extend.EnumEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The type of the enumeration.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Object</span>[]</td>
+                    <td><em>exceptions</em></td>
+                    <td><p sourcefile="api/Extend.EnumEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The values to exclude from the result.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Collections.IEnumerable</span></td>
+                    <td><p sourcefile="api/Extend.EnumEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Returns all values of the specified enumeration type, expect the specified values.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 id="Extend_EnumEx_GetValuesExpect_System_Type_System_Object____remarks">Remarks</h5>
+              <div class="markdown level1 remarks"><pre sourcefile="api/Extend.EnumEx.yml" sourcestartlinenumber="2" sourceendlinenumber="4"><code>How to cast returned values:
+values.Cast{Object}();
+values.Select( x =&amp;gt; Convert.ChangeType( x, type ) );
+</code></pre></div>
+              <h5 class="exceptions">Exceptions</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Condition</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.ArgumentException</span></td>
+                    <td><p sourcefile="api/Extend.EnumEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">T must be an enumerated type.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/davesenn/extend/new/f_docFinal/.Doc/docfx_project/apispec/new?filename=Extend_EnumEx_GetValuesExpect__1___0___.md&amp;value=---%0Auid%3A%20Extend.EnumEx.GetValuesExpect%60%601(%60%600%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/davesenn/extend/blob/f_docFinal/.Src/Extend/System.Enum/GetValuesExpect.cs/#L25">View Source</a>
+              </span>
+              <h4 id="Extend_EnumEx_GetValuesExpect__1___0___" data-uid="Extend.EnumEx.GetValuesExpect``1(``0[])">GetValuesExpect&lt;T&gt;(T[])</h4>
+              <div class="markdown level1 summary"><pre sourcefile="api/Extend.EnumEx.yml" sourcestartlinenumber="2" sourceendlinenumber="2"><code>Gets all values of the specified enumeration type, expect the specified values.
+</code></pre></div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static IEnumerable&lt;T&gt; GetValuesExpect&lt;T&gt;(params T[] exceptions)where T : struct</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>T[]</td>
+                    <td><em>exceptions</em></td>
+                    <td><p sourcefile="api/Extend.EnumEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The values to exclude from the result.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;T&gt;</td>
+                    <td><p sourcefile="api/Extend.EnumEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Returns all values of the specified enumeration type, expect the specified values.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="typeParameters">Type Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><em>T</em></td>
+                    <td>The type of the enumeration.</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="exceptions">Exceptions</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Condition</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.ArgumentException</span></td>
+                    <td><p sourcefile="api/Extend.EnumEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">T must be an enumerated type.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+            </article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/davesenn/extend/new/f_docFinal/.Doc/docfx_project/apispec/new?filename=Extend_EnumEx.md&amp;value=---%0Auid%3A%20Extend.EnumEx%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/davesenn/extend/blob/f_docFinal/.Src/Extend/System.Enum/Enum.GetValues.cs/#L20" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Copyright © 2015-2016 Microsoft<br>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
