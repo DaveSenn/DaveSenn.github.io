@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
   
@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class IEnumerableTEx
    ">
-    <meta name="generator" content="docfx 2.6.2.0">
+    <meta name="generator" content="docfx 2.7.2.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -70,8 +70,8 @@
               
               <h1 id="Extend_IEnumerableTEx" data-uid="Extend.IEnumerableTEx">Class IEnumerableTEx
               </h1>
-              <div class="markdown level0 summary"><pre sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="2" sourceendlinenumber="2"><code>Class containing some extension methods for &lt;xref href=&quot;System.Collections.Generic.IEnumerable%601&quot; data-throw-if-not-resolved=&quot;false&quot;&gt;&lt;/xref&gt;.
-</code></pre></div>
+              <div class="markdown level0 summary"><p>Class containing some extension methods for <span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span>.</p>
+</div>
               <div class="markdown level0 conceptual"></div>
               <div class="inheritance">
                 <h5>Inheritance</h5>
@@ -117,9 +117,10 @@
               <span class="small pull-right mobile-hide">
                 <a href="https://github.com/davesenn/extend/blob/dev/.Src/Extend/System.Collections.Generic.IEnumerable[T]/IEnumerable[T].AnyAndNotNull.cs/#L34">View Source</a>
               </span>
+              <a id="Extend_IEnumerableTEx_AnyAndNotNull_" data-uid="Extend.IEnumerableTEx.AnyAndNotNull*"></a>
               <h4 id="Extend_IEnumerableTEx_AnyAndNotNull__1_System_Collections_Generic_IEnumerable___0__" data-uid="Extend.IEnumerableTEx.AnyAndNotNull``1(System.Collections.Generic.IEnumerable{``0})">AnyAndNotNull&lt;T&gt;(IEnumerable&lt;T&gt;)</h4>
-              <div class="markdown level1 summary"><pre sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="2" sourceendlinenumber="2"><code>Checks if the given IEnumerable is not null and contains some items.
-</code></pre></div>
+              <div class="markdown level1 summary"><p>Checks if the given IEnumerable is not null and contains some items.</p>
+</div>
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
               <div class="codewrapper">
@@ -136,9 +137,9 @@
                 </thead>
                 <tbody>
                   <tr>
-                    <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;T&gt;</td>
+                    <td><span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span>&lt;T&gt;</td>
                     <td><em>enumerable</em></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The IEnumerable to act on.</p>
+                    <td><p>The IEnumerable to act on.</p>
 </td>
                   </tr>
                 </tbody>
@@ -154,7 +155,7 @@
                 <tbody>
                   <tr>
                     <td><span class="xref">System.Boolean</span></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Returns true if the IEnumerable is not null or empty, otherwise false.</p>
+                    <td><p>Returns true if the IEnumerable is not null or empty, otherwise false.</p>
 </td>
                   </tr>
                 </tbody>
@@ -191,10 +192,11 @@ Console.WriteLine( strings.AnyAndNotNull() ); // True</code></pre>
               <span class="small pull-right mobile-hide">
                 <a href="https://github.com/davesenn/extend/blob/dev/.Src/Extend/System.Collections.Generic.IEnumerable[T]/IEnumerable[T].AnyAndNotNull.cs/#L49">View Source</a>
               </span>
+              <a id="Extend_IEnumerableTEx_AnyAndNotNull_" data-uid="Extend.IEnumerableTEx.AnyAndNotNull*"></a>
               <h4 id="Extend_IEnumerableTEx_AnyAndNotNull__1_System_Collections_Generic_IEnumerable___0__System_Func___0_System_Boolean__" data-uid="Extend.IEnumerableTEx.AnyAndNotNull``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean})">AnyAndNotNull&lt;T&gt;(IEnumerable&lt;T&gt;, Func&lt;T, Boolean&gt;)</h4>
-              <div class="markdown level1 summary"><pre sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="2" sourceendlinenumber="3"><code>Checks if the given IEnumerable is not null and contains some items
-which mates the given predicate.
-</code></pre></div>
+              <div class="markdown level1 summary"><p>Checks if the given IEnumerable is not null and contains some items
+which mates the given predicate.</p>
+</div>
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
               <div class="codewrapper">
@@ -211,15 +213,15 @@ which mates the given predicate.
                 </thead>
                 <tbody>
                   <tr>
-                    <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;T&gt;</td>
+                    <td><span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span>&lt;T&gt;</td>
                     <td><em>enumerable</em></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The IEnumerable to act on.</p>
+                    <td><p>The IEnumerable to act on.</p>
 </td>
                   </tr>
                   <tr>
-                    <td><span class="xref">System.Func</span>&lt;T, <span class="xref">System.Boolean</span>&gt;</td>
+                    <td><span class="xref">System.Func&lt;T, TResult&gt;</span>&lt;T, <span class="xref">System.Boolean</span>&gt;</td>
                     <td><em>predicate</em></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The predicate.</p>
+                    <td><p>The predicate.</p>
 </td>
                   </tr>
                 </tbody>
@@ -235,7 +237,7 @@ which mates the given predicate.
                 <tbody>
                   <tr>
                     <td><span class="xref">System.Boolean</span></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Returns true if the IEnumerable is not null or empty, otherwise false.</p>
+                    <td><p>Returns true if the IEnumerable is not null or empty, otherwise false.</p>
 </td>
                   </tr>
                 </tbody>
@@ -266,7 +268,7 @@ which mates the given predicate.
                 <tbody>
                   <tr>
                     <td><span class="xref">System.ArgumentNullException</span></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The predicate can not be null.</p>
+                    <td><p>The predicate can not be null.</p>
 </td>
                   </tr>
                 </tbody>
@@ -278,9 +280,10 @@ which mates the given predicate.
               <span class="small pull-right mobile-hide">
                 <a href="https://github.com/davesenn/extend/blob/dev/.Src/Extend/System.Collections.Generic.IEnumerable[T]/IEnumerable[T].Append.cs/#L26">View Source</a>
               </span>
+              <a id="Extend_IEnumerableTEx_Append_" data-uid="Extend.IEnumerableTEx.Append*"></a>
               <h4 id="Extend_IEnumerableTEx_Append__1_System_Collections_Generic_IEnumerable___0____0_" data-uid="Extend.IEnumerableTEx.Append``1(System.Collections.Generic.IEnumerable{``0},``0)">Append&lt;T&gt;(IEnumerable&lt;T&gt;, T)</h4>
-              <div class="markdown level1 summary"><pre sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="2" sourceendlinenumber="2"><code>Appends the given item to the given sequence.
-</code></pre></div>
+              <div class="markdown level1 summary"><p>Appends the given item to the given sequence.</p>
+</div>
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
               <div class="codewrapper">
@@ -297,15 +300,15 @@ which mates the given predicate.
                 </thead>
                 <tbody>
                   <tr>
-                    <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;T&gt;</td>
+                    <td><span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span>&lt;T&gt;</td>
                     <td><em>source</em></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The sequence to append an item to.</p>
+                    <td><p>The sequence to append an item to.</p>
 </td>
                   </tr>
                   <tr>
                     <td><span class="xref">T</span></td>
                     <td><em>item</em></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The item to append.</p>
+                    <td><p>The item to append.</p>
 </td>
                   </tr>
                 </tbody>
@@ -320,8 +323,8 @@ which mates the given predicate.
                 </thead>
                 <tbody>
                   <tr>
-                    <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;T&gt;</td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The source sequence followed by the appended item.</p>
+                    <td><span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span>&lt;T&gt;</td>
+                    <td><p>The source sequence followed by the appended item.</p>
 </td>
                   </tr>
                 </tbody>
@@ -352,7 +355,7 @@ which mates the given predicate.
                 <tbody>
                   <tr>
                     <td><span class="xref">System.ArgumentNullException</span></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">source can not be null.</p>
+                    <td><p>source can not be null.</p>
 </td>
                   </tr>
                 </tbody>
@@ -364,10 +367,11 @@ which mates the given predicate.
               <span class="small pull-right mobile-hide">
                 <a href="https://github.com/davesenn/extend/blob/dev/.Src/Extend/System.Collections.Generic.IEnumerable[T]/IEnumerable[T].ContainsAll.cs/#L28">View Source</a>
               </span>
+              <a id="Extend_IEnumerableTEx_ContainsAll_" data-uid="Extend.IEnumerableTEx.ContainsAll*"></a>
               <h4 id="Extend_IEnumerableTEx_ContainsAll__1_System_Collections_Generic_IEnumerable___0____0___" data-uid="Extend.IEnumerableTEx.ContainsAll``1(System.Collections.Generic.IEnumerable{``0},``0[])">ContainsAll&lt;T&gt;(IEnumerable&lt;T&gt;, T[])</h4>
-              <div class="markdown level1 summary"><pre sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="2" sourceendlinenumber="3"><code>s
-Checks if the IEnumerable contains all given values.
-</code></pre></div>
+              <div class="markdown level1 summary"><p>s
+Checks if the IEnumerable contains all given values.</p>
+</div>
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
               <div class="codewrapper">
@@ -384,15 +388,15 @@ Checks if the IEnumerable contains all given values.
                 </thead>
                 <tbody>
                   <tr>
-                    <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;T&gt;</td>
+                    <td><span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span>&lt;T&gt;</td>
                     <td><em>enumerable</em></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The IEnumerable to act on.</p>
+                    <td><p>The IEnumerable to act on.</p>
 </td>
                   </tr>
                   <tr>
                     <td>T[]</td>
                     <td><em>values</em></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The values to search for.</p>
+                    <td><p>The values to search for.</p>
 </td>
                   </tr>
                 </tbody>
@@ -408,7 +412,7 @@ Checks if the IEnumerable contains all given values.
                 <tbody>
                   <tr>
                     <td><span class="xref">System.Boolean</span></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Returns true if the IEnumerable contains all given values, otherwise false.</p>
+                    <td><p>Returns true if the IEnumerable contains all given values, otherwise false.</p>
 </td>
                   </tr>
                 </tbody>
@@ -439,12 +443,12 @@ Checks if the IEnumerable contains all given values.
                 <tbody>
                   <tr>
                     <td><span class="xref">System.ArgumentNullException</span></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The enumerable can not be null.</p>
+                    <td><p>The enumerable can not be null.</p>
 </td>
                   </tr>
                   <tr>
                     <td><span class="xref">System.ArgumentNullException</span></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The values can not be null.</p>
+                    <td><p>The values can not be null.</p>
 </td>
                   </tr>
                 </tbody>
@@ -456,10 +460,11 @@ Checks if the IEnumerable contains all given values.
               <span class="small pull-right mobile-hide">
                 <a href="https://github.com/davesenn/extend/blob/dev/.Src/Extend/System.Collections.Generic.IEnumerable[T]/IEnumerable[T].ContainsAll.cs/#L48">View Source</a>
               </span>
+              <a id="Extend_IEnumerableTEx_ContainsAll_" data-uid="Extend.IEnumerableTEx.ContainsAll*"></a>
               <h4 id="Extend_IEnumerableTEx_ContainsAll__1_System_Collections_Generic_IEnumerable___0__System_Collections_Generic_IEnumerable___0__" data-uid="Extend.IEnumerableTEx.ContainsAll``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0})">ContainsAll&lt;T&gt;(IEnumerable&lt;T&gt;, IEnumerable&lt;T&gt;)</h4>
-              <div class="markdown level1 summary"><pre sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="2" sourceendlinenumber="3"><code>s
-Checks if the IEnumerable contains all values of the given IEnumerable.
-</code></pre></div>
+              <div class="markdown level1 summary"><p>s
+Checks if the IEnumerable contains all values of the given IEnumerable.</p>
+</div>
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
               <div class="codewrapper">
@@ -476,15 +481,15 @@ Checks if the IEnumerable contains all values of the given IEnumerable.
                 </thead>
                 <tbody>
                   <tr>
-                    <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;T&gt;</td>
+                    <td><span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span>&lt;T&gt;</td>
                     <td><em>enumerable</em></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The IEnumerable to act on.</p>
+                    <td><p>The IEnumerable to act on.</p>
 </td>
                   </tr>
                   <tr>
-                    <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;T&gt;</td>
+                    <td><span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span>&lt;T&gt;</td>
                     <td><em>values</em></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The IEnumerable containing the values to search for.</p>
+                    <td><p>The IEnumerable containing the values to search for.</p>
 </td>
                   </tr>
                 </tbody>
@@ -500,7 +505,7 @@ Checks if the IEnumerable contains all values of the given IEnumerable.
                 <tbody>
                   <tr>
                     <td><span class="xref">System.Boolean</span></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Returns true if the IEnumerable contains all given values, otherwise false.</p>
+                    <td><p>Returns true if the IEnumerable contains all given values, otherwise false.</p>
 </td>
                   </tr>
                 </tbody>
@@ -531,12 +536,12 @@ Checks if the IEnumerable contains all values of the given IEnumerable.
                 <tbody>
                   <tr>
                     <td><span class="xref">System.ArgumentNullException</span></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The enumerable can not be null.</p>
+                    <td><p>The enumerable can not be null.</p>
 </td>
                   </tr>
                   <tr>
                     <td><span class="xref">System.ArgumentNullException</span></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The values can not be null.</p>
+                    <td><p>The values can not be null.</p>
 </td>
                   </tr>
                 </tbody>
@@ -548,9 +553,10 @@ Checks if the IEnumerable contains all values of the given IEnumerable.
               <span class="small pull-right mobile-hide">
                 <a href="https://github.com/davesenn/extend/blob/dev/.Src/Extend/System.Collections.Generic.IEnumerable[T]/IEnumerable[T].ContainsAny.cs/#L27">View Source</a>
               </span>
+              <a id="Extend_IEnumerableTEx_ContainsAny_" data-uid="Extend.IEnumerableTEx.ContainsAny*"></a>
               <h4 id="Extend_IEnumerableTEx_ContainsAny__1_System_Collections_Generic_IEnumerable___0____0___" data-uid="Extend.IEnumerableTEx.ContainsAny``1(System.Collections.Generic.IEnumerable{``0},``0[])">ContainsAny&lt;T&gt;(IEnumerable&lt;T&gt;, T[])</h4>
-              <div class="markdown level1 summary"><pre sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="2" sourceendlinenumber="2"><code>Checks if the IEnumerable contains any of the given values.
-</code></pre></div>
+              <div class="markdown level1 summary"><p>Checks if the IEnumerable contains any of the given values.</p>
+</div>
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
               <div class="codewrapper">
@@ -567,15 +573,15 @@ Checks if the IEnumerable contains all values of the given IEnumerable.
                 </thead>
                 <tbody>
                   <tr>
-                    <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;T&gt;</td>
+                    <td><span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span>&lt;T&gt;</td>
                     <td><em>enumerable</em></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The IEnumerable to act on.</p>
+                    <td><p>The IEnumerable to act on.</p>
 </td>
                   </tr>
                   <tr>
                     <td>T[]</td>
                     <td><em>values</em></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The values to search for.</p>
+                    <td><p>The values to search for.</p>
 </td>
                   </tr>
                 </tbody>
@@ -591,7 +597,7 @@ Checks if the IEnumerable contains all values of the given IEnumerable.
                 <tbody>
                   <tr>
                     <td><span class="xref">System.Boolean</span></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Returns true if the IEnumerable contains any of the given values, otherwise false.</p>
+                    <td><p>Returns true if the IEnumerable contains any of the given values, otherwise false.</p>
 </td>
                   </tr>
                 </tbody>
@@ -622,12 +628,12 @@ Checks if the IEnumerable contains all values of the given IEnumerable.
                 <tbody>
                   <tr>
                     <td><span class="xref">System.ArgumentNullException</span></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The enumerable can not be null.</p>
+                    <td><p>The enumerable can not be null.</p>
 </td>
                   </tr>
                   <tr>
                     <td><span class="xref">System.ArgumentNullException</span></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The values can not be null.</p>
+                    <td><p>The values can not be null.</p>
 </td>
                   </tr>
                 </tbody>
@@ -639,9 +645,10 @@ Checks if the IEnumerable contains all values of the given IEnumerable.
               <span class="small pull-right mobile-hide">
                 <a href="https://github.com/davesenn/extend/blob/dev/.Src/Extend/System.Collections.Generic.IEnumerable[T]/IEnumerable[T].ContainsAny.cs/#L49">View Source</a>
               </span>
+              <a id="Extend_IEnumerableTEx_ContainsAny_" data-uid="Extend.IEnumerableTEx.ContainsAny*"></a>
               <h4 id="Extend_IEnumerableTEx_ContainsAny__1_System_Collections_Generic_IEnumerable___0__System_Collections_Generic_IEnumerable___0__" data-uid="Extend.IEnumerableTEx.ContainsAny``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0})">ContainsAny&lt;T&gt;(IEnumerable&lt;T&gt;, IEnumerable&lt;T&gt;)</h4>
-              <div class="markdown level1 summary"><pre sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="2" sourceendlinenumber="2"><code>Checks if the IEnumerable contains any of the values of the given IEnumerable.
-</code></pre></div>
+              <div class="markdown level1 summary"><p>Checks if the IEnumerable contains any of the values of the given IEnumerable.</p>
+</div>
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
               <div class="codewrapper">
@@ -658,15 +665,15 @@ Checks if the IEnumerable contains all values of the given IEnumerable.
                 </thead>
                 <tbody>
                   <tr>
-                    <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;T&gt;</td>
+                    <td><span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span>&lt;T&gt;</td>
                     <td><em>enumerable</em></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The IEnumerable to act on.</p>
+                    <td><p>The IEnumerable to act on.</p>
 </td>
                   </tr>
                   <tr>
-                    <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;T&gt;</td>
+                    <td><span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span>&lt;T&gt;</td>
                     <td><em>values</em></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The IEnumerable containing the values to search for.</p>
+                    <td><p>The IEnumerable containing the values to search for.</p>
 </td>
                   </tr>
                 </tbody>
@@ -682,9 +689,9 @@ Checks if the IEnumerable contains all values of the given IEnumerable.
                 <tbody>
                   <tr>
                     <td><span class="xref">System.Boolean</span></td>
-                    <td><pre sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="2" sourceendlinenumber="3"><code>Returns true if the IEnumerable contains any of the values of the given IEnumerable,
-otherwise false.
-</code></pre></td>
+                    <td><p>Returns true if the IEnumerable contains any of the values of the given IEnumerable,
+otherwise false.</p>
+</td>
                   </tr>
                 </tbody>
               </table>
@@ -714,12 +721,12 @@ otherwise false.
                 <tbody>
                   <tr>
                     <td><span class="xref">System.ArgumentNullException</span></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The enumerable can not be null.</p>
+                    <td><p>The enumerable can not be null.</p>
 </td>
                   </tr>
                   <tr>
                     <td><span class="xref">System.ArgumentNullException</span></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The values can not be null.</p>
+                    <td><p>The values can not be null.</p>
 </td>
                   </tr>
                 </tbody>
@@ -731,9 +738,10 @@ otherwise false.
               <span class="small pull-right mobile-hide">
                 <a href="https://github.com/davesenn/extend/blob/dev/.Src/Extend/System.Collections.Generic.IEnumerable[T]/IEnumerable[T].Distinct.cs/#L27">View Source</a>
               </span>
+              <a id="Extend_IEnumerableTEx_Distinct_" data-uid="Extend.IEnumerableTEx.Distinct*"></a>
               <h4 id="Extend_IEnumerableTEx_Distinct__2_System_Collections_Generic_IEnumerable___0__System_Func___0___1__" data-uid="Extend.IEnumerableTEx.Distinct``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1})">Distinct&lt;T, TKey&gt;(IEnumerable&lt;T&gt;, Func&lt;T, TKey&gt;)</h4>
-              <div class="markdown level1 summary"><pre sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="2" sourceendlinenumber="2"><code>Returns all unique items, based on the given predicate.
-</code></pre></div>
+              <div class="markdown level1 summary"><p>Returns all unique items, based on the given predicate.</p>
+</div>
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
               <div class="codewrapper">
@@ -750,15 +758,15 @@ otherwise false.
                 </thead>
                 <tbody>
                   <tr>
-                    <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;T&gt;</td>
+                    <td><span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span>&lt;T&gt;</td>
                     <td><em>enumerable</em></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The IEnumerable.</p>
+                    <td><p>The IEnumerable.</p>
 </td>
                   </tr>
                   <tr>
-                    <td><span class="xref">System.Func</span>&lt;T, TKey&gt;</td>
+                    <td><span class="xref">System.Func&lt;T, TResult&gt;</span>&lt;T, TKey&gt;</td>
                     <td><em>predicate</em></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The Predicate.</p>
+                    <td><p>The Predicate.</p>
 </td>
                   </tr>
                 </tbody>
@@ -773,7 +781,7 @@ otherwise false.
                 </thead>
                 <tbody>
                   <tr>
-                    <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;T&gt;</td>
+                    <td><span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span>&lt;T&gt;</td>
                     <td></td>
                   </tr>
                 </tbody>
@@ -808,12 +816,12 @@ otherwise false.
                 <tbody>
                   <tr>
                     <td><span class="xref">System.ArgumentNullException</span></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The enumerable can not be null.</p>
+                    <td><p>The enumerable can not be null.</p>
 </td>
                   </tr>
                   <tr>
                     <td><span class="xref">System.ArgumentNullException</span></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The predicate can not be null.</p>
+                    <td><p>The predicate can not be null.</p>
 </td>
                   </tr>
                 </tbody>
@@ -825,9 +833,10 @@ otherwise false.
               <span class="small pull-right mobile-hide">
                 <a href="https://github.com/davesenn/extend/blob/dev/.Src/Extend/System.Collections.Generic.IEnumerable[T]/IEnumerable[T].EnsureNotNull.cs/#L22">View Source</a>
               </span>
+              <a id="Extend_IEnumerableTEx_EnsureNotNull_" data-uid="Extend.IEnumerableTEx.EnsureNotNull*"></a>
               <h4 id="Extend_IEnumerableTEx_EnsureNotNull__1_System_Collections_Generic_IEnumerable___0__" data-uid="Extend.IEnumerableTEx.EnsureNotNull``1(System.Collections.Generic.IEnumerable{``0})">EnsureNotNull&lt;T&gt;(IEnumerable&lt;T&gt;)</h4>
-              <div class="markdown level1 summary"><pre sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="2" sourceendlinenumber="2"><code>Ensures that the given &lt;xref href=&quot;System.Collections.Generic.IEnumerable%601&quot; data-throw-if-not-resolved=&quot;false&quot;&gt;&lt;/xref&gt; is not null.
-</code></pre></div>
+              <div class="markdown level1 summary"><p>Ensures that the given <span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span> is not null.</p>
+</div>
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
               <div class="codewrapper">
@@ -844,9 +853,9 @@ otherwise false.
                 </thead>
                 <tbody>
                   <tr>
-                    <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;T&gt;</td>
+                    <td><span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span>&lt;T&gt;</td>
                     <td><em>enumerable</em></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The IEnumerable.</p>
+                    <td><p>The IEnumerable.</p>
 </td>
                   </tr>
                 </tbody>
@@ -861,8 +870,8 @@ otherwise false.
                 </thead>
                 <tbody>
                   <tr>
-                    <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;T&gt;</td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Returns the given IEnumerable if it&#39;s not null, otherwise an empty array of type T.</p>
+                    <td><span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span>&lt;T&gt;</td>
+                    <td><p>Returns the given IEnumerable if it&#39;s not null, otherwise an empty array of type T.</p>
 </td>
                   </tr>
                 </tbody>
@@ -889,9 +898,10 @@ otherwise false.
               <span class="small pull-right mobile-hide">
                 <a href="https://github.com/davesenn/extend/blob/dev/.Src/Extend/System.Collections.Generic.IEnumerable[T]/IEnumerable[T].Except.cs/#L41">View Source</a>
               </span>
+              <a id="Extend_IEnumerableTEx_Except_" data-uid="Extend.IEnumerableTEx.Except*"></a>
               <h4 id="Extend_IEnumerableTEx_Except__2_System_Collections_Generic_IEnumerable___0__System_Collections_Generic_IEnumerable___0__System_Func___0___1__System_Collections_Generic_IEqualityComparer___1__" data-uid="Extend.IEnumerableTEx.Except``2(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Collections.Generic.IEqualityComparer{``1})">Except&lt;TSource, TKey&gt;(IEnumerable&lt;TSource&gt;, IEnumerable&lt;TSource&gt;, Func&lt;TSource, TKey&gt;, IEqualityComparer&lt;TKey&gt;)</h4>
-              <div class="markdown level1 summary"><pre sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="2" sourceendlinenumber="2"><code>Produces the set difference of two sequences by using the specified
-</code></pre><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="3" sourceendlinenumber="3"><span class="xref">IEqualityComparer&lt;T&gt;</span> to compare values.</p>
+              <div class="markdown level1 summary"><p>Produces the set difference of two sequences by using the specified</p>
+<p><span class="xref">System.Collections.Generic.IEqualityComparer&lt;T&gt;</span> to compare values.</p>
 </div>
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
@@ -909,31 +919,31 @@ otherwise false.
                 </thead>
                 <tbody>
                   <tr>
-                    <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TSource&gt;</td>
+                    <td><span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span>&lt;TSource&gt;</td>
                     <td><em>first</em></td>
-                    <td><pre sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="2" sourceendlinenumber="3"><code>An &lt;xref href=&quot;System.Collections.Generic.IEnumerable%601&quot; data-throw-if-not-resolved=&quot;false&quot;&gt;&lt;/xref&gt; whose elements that are not also
-in &lt;em&gt;second&lt;/em&gt; will be returned.
-</code></pre></td>
-                  </tr>
-                  <tr>
-                    <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TSource&gt;</td>
-                    <td><em>second</em></td>
-                    <td><pre sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="2" sourceendlinenumber="3"><code>An &lt;xref href=&quot;System.Collections.Generic.IEnumerable%601&quot; data-throw-if-not-resolved=&quot;false&quot;&gt;&lt;/xref&gt; whose elements that also occur
-in the first sequence will cause those elements to be removed from the returned sequence.
-</code></pre></td>
-                  </tr>
-                  <tr>
-                    <td><span class="xref">System.Func</span>&lt;TSource, TKey&gt;</td>
-                    <td><em>keySelector</em></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">A function used to select the key of the items to compare.</p>
+                    <td><p>An <span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span> whose elements that are not also
+in <em>second</em> will be returned.</p>
 </td>
                   </tr>
                   <tr>
-                    <td><span class="xref">System.Collections.Generic.IEqualityComparer</span>&lt;TKey&gt;</td>
+                    <td><span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span>&lt;TSource&gt;</td>
+                    <td><em>second</em></td>
+                    <td><p>An <span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span> whose elements that also occur
+in the first sequence will cause those elements to be removed from the returned sequence.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Func&lt;T, TResult&gt;</span>&lt;TSource, TKey&gt;</td>
+                    <td><em>keySelector</em></td>
+                    <td><p>A function used to select the key of the items to compare.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Collections.Generic.IEqualityComparer&lt;T&gt;</span>&lt;TKey&gt;</td>
                     <td><em>comparer</em></td>
-                    <td><pre sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="2" sourceendlinenumber="3"><code>An optional &lt;xref href=&quot;System.Collections.Generic.IEqualityComparer%601&quot; data-throw-if-not-resolved=&quot;false&quot;&gt;&lt;/xref&gt; to compare the
-keys of the items.
-</code></pre></td>
+                    <td><p>An optional <span class="xref">System.Collections.Generic.IEqualityComparer&lt;T&gt;</span> to compare the
+keys of the items.</p>
+</td>
                   </tr>
                 </tbody>
               </table>
@@ -947,8 +957,8 @@ keys of the items.
                 </thead>
                 <tbody>
                   <tr>
-                    <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TSource&gt;</td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">A sequence that contains the set difference of the elements of two sequences.</p>
+                    <td><span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span>&lt;TSource&gt;</td>
+                    <td><p>A sequence that contains the set difference of the elements of two sequences.</p>
 </td>
                   </tr>
                 </tbody>
@@ -983,17 +993,17 @@ keys of the items.
                 <tbody>
                   <tr>
                     <td><span class="xref">System.ArgumentNullException</span></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">first can not be null.</p>
+                    <td><p>first can not be null.</p>
 </td>
                   </tr>
                   <tr>
                     <td><span class="xref">System.ArgumentNullException</span></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">second can not be null.</p>
+                    <td><p>second can not be null.</p>
 </td>
                   </tr>
                   <tr>
                     <td><span class="xref">System.ArgumentNullException</span></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">keySelector can not be null.</p>
+                    <td><p>keySelector can not be null.</p>
 </td>
                   </tr>
                 </tbody>
@@ -1005,9 +1015,10 @@ keys of the items.
               <span class="small pull-right mobile-hide">
                 <a href="https://github.com/davesenn/extend/blob/dev/.Src/Extend/System.Collections.Generic.IEnumerable[T]/IEnumerable[T].ForEach.cs/#L51">View Source</a>
               </span>
+              <a id="Extend_IEnumerableTEx_ForEach_" data-uid="Extend.IEnumerableTEx.ForEach*"></a>
               <h4 id="Extend_IEnumerableTEx_ForEach__1_System_Collections_Generic_IEnumerable___0__System_Action___0_System_Int32__" data-uid="Extend.IEnumerableTEx.ForEach``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0,System.Int32})">ForEach&lt;T&gt;(IEnumerable&lt;T&gt;, Action&lt;T, Int32&gt;)</h4>
-              <div class="markdown level1 summary"><pre sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="2" sourceendlinenumber="2"><code>Performs the specified action on each object in the given enumerable.
-</code></pre></div>
+              <div class="markdown level1 summary"><p>Performs the specified action on each object in the given enumerable.</p>
+</div>
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
               <div class="codewrapper">
@@ -1024,17 +1035,17 @@ keys of the items.
                 </thead>
                 <tbody>
                   <tr>
-                    <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;T&gt;</td>
+                    <td><span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span>&lt;T&gt;</td>
                     <td><em>enumerable</em></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The enumerable containing all the items.</p>
+                    <td><p>The enumerable containing all the items.</p>
 </td>
                   </tr>
                   <tr>
-                    <td><span class="xref">System.Action</span>&lt;T, <span class="xref">System.Int32</span>&gt;</td>
+                    <td><span class="xref">System.Action&lt;T1, T2&gt;</span>&lt;T, <span class="xref">System.Int32</span>&gt;</td>
                     <td><em>action</em></td>
-                    <td><pre sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="2" sourceendlinenumber="3"><code>The action to perform on each item of the given enumerable.
-The action takes a item of the given enumerable and it&#39;s index as parameter.
-</code></pre></td>
+                    <td><p>The action to perform on each item of the given enumerable.
+The action takes a item of the given enumerable and it&#39;s index as parameter.</p>
+</td>
                   </tr>
                 </tbody>
               </table>
@@ -1048,7 +1059,7 @@ The action takes a item of the given enumerable and it&#39;s index as parameter.
                 </thead>
                 <tbody>
                   <tr>
-                    <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;T&gt;</td>
+                    <td><span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span>&lt;T&gt;</td>
                     <td></td>
                   </tr>
                 </tbody>
@@ -1079,12 +1090,12 @@ The action takes a item of the given enumerable and it&#39;s index as parameter.
                 <tbody>
                   <tr>
                     <td><span class="xref">System.ArgumentNullException</span></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The source collection can not be null.</p>
+                    <td><p>The source collection can not be null.</p>
 </td>
                   </tr>
                   <tr>
                     <td><span class="xref">System.ArgumentNullException</span></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The action can not be null.</p>
+                    <td><p>The action can not be null.</p>
 </td>
                   </tr>
                 </tbody>
@@ -1096,9 +1107,10 @@ The action takes a item of the given enumerable and it&#39;s index as parameter.
               <span class="small pull-right mobile-hide">
                 <a href="https://github.com/davesenn/extend/blob/dev/.Src/Extend/System.Collections.Generic.IEnumerable[T]/IEnumerable[T].ForEach.cs/#L26">View Source</a>
               </span>
+              <a id="Extend_IEnumerableTEx_ForEach_" data-uid="Extend.IEnumerableTEx.ForEach*"></a>
               <h4 id="Extend_IEnumerableTEx_ForEach__1_System_Collections_Generic_IEnumerable___0__System_Action___0__" data-uid="Extend.IEnumerableTEx.ForEach``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0})">ForEach&lt;T&gt;(IEnumerable&lt;T&gt;, Action&lt;T&gt;)</h4>
-              <div class="markdown level1 summary"><pre sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="2" sourceendlinenumber="2"><code>Performs the specified action on each object in the given enumerable.
-</code></pre></div>
+              <div class="markdown level1 summary"><p>Performs the specified action on each object in the given enumerable.</p>
+</div>
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
               <div class="codewrapper">
@@ -1115,15 +1127,15 @@ The action takes a item of the given enumerable and it&#39;s index as parameter.
                 </thead>
                 <tbody>
                   <tr>
-                    <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;T&gt;</td>
+                    <td><span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span>&lt;T&gt;</td>
                     <td><em>enumerable</em></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The enumerable containing all the items.</p>
+                    <td><p>The enumerable containing all the items.</p>
 </td>
                   </tr>
                   <tr>
-                    <td><span class="xref">System.Action</span>&lt;T&gt;</td>
+                    <td><span class="xref">System.Action&lt;T&gt;</span>&lt;T&gt;</td>
                     <td><em>action</em></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The action to perform on each item of the given enumerable.</p>
+                    <td><p>The action to perform on each item of the given enumerable.</p>
 </td>
                   </tr>
                 </tbody>
@@ -1138,7 +1150,7 @@ The action takes a item of the given enumerable and it&#39;s index as parameter.
                 </thead>
                 <tbody>
                   <tr>
-                    <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;T&gt;</td>
+                    <td><span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span>&lt;T&gt;</td>
                     <td></td>
                   </tr>
                 </tbody>
@@ -1169,12 +1181,12 @@ The action takes a item of the given enumerable and it&#39;s index as parameter.
                 <tbody>
                   <tr>
                     <td><span class="xref">System.ArgumentNullException</span></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The source collection can not be null.</p>
+                    <td><p>The source collection can not be null.</p>
 </td>
                   </tr>
                   <tr>
                     <td><span class="xref">System.ArgumentNullException</span></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The action can not be null.</p>
+                    <td><p>The action can not be null.</p>
 </td>
                   </tr>
                 </tbody>
@@ -1186,9 +1198,10 @@ The action takes a item of the given enumerable and it&#39;s index as parameter.
               <span class="small pull-right mobile-hide">
                 <a href="https://github.com/davesenn/extend/blob/dev/.Src/Extend/System.Collections.Generic.IEnumerable[T]/IEnumerable[T].ForEachReverse.cs/#L26">View Source</a>
               </span>
+              <a id="Extend_IEnumerableTEx_ForEachReverse_" data-uid="Extend.IEnumerableTEx.ForEachReverse*"></a>
               <h4 id="Extend_IEnumerableTEx_ForEachReverse__1_System_Collections_Generic_IEnumerable___0__System_Action___0__" data-uid="Extend.IEnumerableTEx.ForEachReverse``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0})">ForEachReverse&lt;T&gt;(IEnumerable&lt;T&gt;, Action&lt;T&gt;)</h4>
-              <div class="markdown level1 summary"><pre sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="2" sourceendlinenumber="2"><code>Executes the given action for each item in the IEnumerable in a reversed order.
-</code></pre></div>
+              <div class="markdown level1 summary"><p>Executes the given action for each item in the IEnumerable in a reversed order.</p>
+</div>
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
               <div class="codewrapper">
@@ -1205,15 +1218,15 @@ The action takes a item of the given enumerable and it&#39;s index as parameter.
                 </thead>
                 <tbody>
                   <tr>
-                    <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;T&gt;</td>
+                    <td><span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span>&lt;T&gt;</td>
                     <td><em>enumerable</em></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The IEnumerable to act on.</p>
+                    <td><p>The IEnumerable to act on.</p>
 </td>
                   </tr>
                   <tr>
-                    <td><span class="xref">System.Action</span>&lt;T&gt;</td>
+                    <td><span class="xref">System.Action&lt;T&gt;</span>&lt;T&gt;</td>
                     <td><em>action</em></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The action to execute for each item in the IEnumerable.</p>
+                    <td><p>The action to execute for each item in the IEnumerable.</p>
 </td>
                   </tr>
                 </tbody>
@@ -1228,7 +1241,7 @@ The action takes a item of the given enumerable and it&#39;s index as parameter.
                 </thead>
                 <tbody>
                   <tr>
-                    <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;T&gt;</td>
+                    <td><span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span>&lt;T&gt;</td>
                     <td></td>
                   </tr>
                 </tbody>
@@ -1249,7 +1262,7 @@ The action takes a item of the given enumerable and it&#39;s index as parameter.
                 </tbody>
               </table>
               <h5 id="Extend_IEnumerableTEx_ForEachReverse__1_System_Collections_Generic_IEnumerable___0__System_Action___0___remarks">Remarks</h5>
-              <div class="markdown level1 remarks"><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">It&#39;s save to remove items from the IEnumerable within the loop.</p>
+              <div class="markdown level1 remarks"><p>It&#39;s save to remove items from the IEnumerable within the loop.</p>
 </div>
               <h5 class="exceptions">Exceptions</h5>
               <table class="table table-bordered table-striped table-condensed">
@@ -1262,12 +1275,12 @@ The action takes a item of the given enumerable and it&#39;s index as parameter.
                 <tbody>
                   <tr>
                     <td><span class="xref">System.ArgumentNullException</span></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The enumerable can not be null.</p>
+                    <td><p>The enumerable can not be null.</p>
 </td>
                   </tr>
                   <tr>
                     <td><span class="xref">System.ArgumentNullException</span></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The action can not be null.</p>
+                    <td><p>The action can not be null.</p>
 </td>
                   </tr>
                 </tbody>
@@ -1279,10 +1292,11 @@ The action takes a item of the given enumerable and it&#39;s index as parameter.
               <span class="small pull-right mobile-hide">
                 <a href="https://github.com/davesenn/extend/blob/dev/.Src/Extend/System.Collections.Generic.IEnumerable[T]/IEnumerable[T].GetEqualItemsFromStart.cs/#L29">View Source</a>
               </span>
+              <a id="Extend_IEnumerableTEx_GetEqualItemsFromStart_" data-uid="Extend.IEnumerableTEx.GetEqualItemsFromStart*"></a>
               <h4 id="Extend_IEnumerableTEx_GetEqualItemsFromStart__1_System_Collections_Generic_IEnumerable___0__System_Collections_Generic_IEnumerable___0__System_Collections_Generic_IEqualityComparer___0__" data-uid="Extend.IEnumerableTEx.GetEqualItemsFromStart``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEqualityComparer{``0})">GetEqualItemsFromStart&lt;T&gt;(IEnumerable&lt;T&gt;, IEnumerable&lt;T&gt;, IEqualityComparer&lt;T&gt;)</h4>
-              <div class="markdown level1 summary"><pre sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="2" sourceendlinenumber="3"><code>Returns the equal items of two IEnumerables, according to the specified comparer.
-Beginning at the start of the IEnumerables, ending when first different item is found.
-</code></pre></div>
+              <div class="markdown level1 summary"><p>Returns the equal items of two IEnumerables, according to the specified comparer.
+Beginning at the start of the IEnumerables, ending when first different item is found.</p>
+</div>
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
               <div class="codewrapper">
@@ -1299,21 +1313,21 @@ Beginning at the start of the IEnumerables, ending when first different item is 
                 </thead>
                 <tbody>
                   <tr>
-                    <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;T&gt;</td>
+                    <td><span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span>&lt;T&gt;</td>
                     <td><em>left</em></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The first IEnumerable.</p>
+                    <td><p>The first IEnumerable.</p>
 </td>
                   </tr>
                   <tr>
-                    <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;T&gt;</td>
+                    <td><span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span>&lt;T&gt;</td>
                     <td><em>right</em></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The second IEnumerable.</p>
+                    <td><p>The second IEnumerable.</p>
 </td>
                   </tr>
                   <tr>
-                    <td><span class="xref">System.Collections.Generic.IEqualityComparer</span>&lt;T&gt;</td>
+                    <td><span class="xref">System.Collections.Generic.IEqualityComparer&lt;T&gt;</span>&lt;T&gt;</td>
                     <td><em>comparer</em></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The comparer used to test items for equality.</p>
+                    <td><p>The comparer used to test items for equality.</p>
 </td>
                   </tr>
                 </tbody>
@@ -1328,9 +1342,9 @@ Beginning at the start of the IEnumerables, ending when first different item is 
                 </thead>
                 <tbody>
                   <tr>
-                    <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;T&gt;</td>
-                    <td><pre sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="2" sourceendlinenumber="2"><code>A sequence consisting of the first elements of &lt;em&gt;left&lt;/em&gt; that match the first elements of
-</code></pre><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="3" sourceendlinenumber="4"><em>right</em>.
+                    <td><span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span>&lt;T&gt;</td>
+                    <td><p>A sequence consisting of the first elements of <em>left</em> that match the first elements of
+<em>right</em>.
 The resulting sequence ends when the two input sequence start to differ.</p>
 </td>
                   </tr>
@@ -1358,9 +1372,10 @@ The resulting sequence ends when the two input sequence start to differ.</p>
               <span class="small pull-right mobile-hide">
                 <a href="https://github.com/davesenn/extend/blob/dev/.Src/Extend/System.Collections.Generic.IEnumerable[T]/IEnumerable[T].GetRandomItem.cs/#L25">View Source</a>
               </span>
+              <a id="Extend_IEnumerableTEx_GetRandomItem_" data-uid="Extend.IEnumerableTEx.GetRandomItem*"></a>
               <h4 id="Extend_IEnumerableTEx_GetRandomItem__1_System_Collections_Generic_IEnumerable___0__" data-uid="Extend.IEnumerableTEx.GetRandomItem``1(System.Collections.Generic.IEnumerable{``0})">GetRandomItem&lt;T&gt;(IEnumerable&lt;T&gt;)</h4>
-              <div class="markdown level1 summary"><pre sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="2" sourceendlinenumber="2"><code>Gets a random item form the given IEnumerable.
-</code></pre></div>
+              <div class="markdown level1 summary"><p>Gets a random item form the given IEnumerable.</p>
+</div>
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
               <div class="codewrapper">
@@ -1377,9 +1392,9 @@ The resulting sequence ends when the two input sequence start to differ.</p>
                 </thead>
                 <tbody>
                   <tr>
-                    <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;T&gt;</td>
+                    <td><span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span>&lt;T&gt;</td>
                     <td><em>enumerable</em></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The IEnumerable.</p>
+                    <td><p>The IEnumerable.</p>
 </td>
                   </tr>
                 </tbody>
@@ -1395,7 +1410,7 @@ The resulting sequence ends when the two input sequence start to differ.</p>
                 <tbody>
                   <tr>
                     <td><span class="xref">T</span></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Returns an random item of the given IEnumerable.</p>
+                    <td><p>Returns an random item of the given IEnumerable.</p>
 </td>
                   </tr>
                 </tbody>
@@ -1426,7 +1441,7 @@ The resulting sequence ends when the two input sequence start to differ.</p>
                 <tbody>
                   <tr>
                     <td><span class="xref">System.ArgumentNullException</span></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The enumerable can not be null.</p>
+                    <td><p>The enumerable can not be null.</p>
 </td>
                   </tr>
                 </tbody>
@@ -1438,9 +1453,10 @@ The resulting sequence ends when the two input sequence start to differ.</p>
               <span class="small pull-right mobile-hide">
                 <a href="https://github.com/davesenn/extend/blob/dev/.Src/Extend/System.Collections.Generic.IEnumerable[T]/IEnumerable[T].Intersect.cs/#L40">View Source</a>
               </span>
+              <a id="Extend_IEnumerableTEx_Intersect_" data-uid="Extend.IEnumerableTEx.Intersect*"></a>
               <h4 id="Extend_IEnumerableTEx_Intersect__2_System_Collections_Generic_IEnumerable___0__System_Collections_Generic_IEnumerable___0__System_Func___0___1__System_Collections_Generic_IEqualityComparer___1__" data-uid="Extend.IEnumerableTEx.Intersect``2(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Collections.Generic.IEqualityComparer{``1})">Intersect&lt;TSource, TKey&gt;(IEnumerable&lt;TSource&gt;, IEnumerable&lt;TSource&gt;, Func&lt;TSource, TKey&gt;, IEqualityComparer&lt;TKey&gt;)</h4>
-              <div class="markdown level1 summary"><pre sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="2" sourceendlinenumber="2"><code>Produces the set intersection of two sequences.
-</code></pre></div>
+              <div class="markdown level1 summary"><p>Produces the set intersection of two sequences.</p>
+</div>
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
               <div class="codewrapper">
@@ -1457,31 +1473,31 @@ The resulting sequence ends when the two input sequence start to differ.</p>
                 </thead>
                 <tbody>
                   <tr>
-                    <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TSource&gt;</td>
+                    <td><span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span>&lt;TSource&gt;</td>
                     <td><em>first</em></td>
-                    <td><pre sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="2" sourceendlinenumber="3"><code>An &lt;xref href=&quot;System.Collections.Generic.IEnumerable%601&quot; data-throw-if-not-resolved=&quot;false&quot;&gt;&lt;/xref&gt; whose distinct elements that also
-appear in second will be returned.
-</code></pre></td>
-                  </tr>
-                  <tr>
-                    <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TSource&gt;</td>
-                    <td><em>second</em></td>
-                    <td><pre sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="2" sourceendlinenumber="3"><code>An &lt;xref href=&quot;System.Collections.Generic.IEnumerable%601&quot; data-throw-if-not-resolved=&quot;false&quot;&gt;&lt;/xref&gt; whose distinct elements that also
-appear in the first sequence will be returned.
-</code></pre></td>
-                  </tr>
-                  <tr>
-                    <td><span class="xref">System.Func</span>&lt;TSource, TKey&gt;</td>
-                    <td><em>keySelector</em></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">A function used to select the key of the items to compare.</p>
+                    <td><p>An <span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span> whose distinct elements that also
+appear in second will be returned.</p>
 </td>
                   </tr>
                   <tr>
-                    <td><span class="xref">System.Collections.Generic.IEqualityComparer</span>&lt;TKey&gt;</td>
+                    <td><span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span>&lt;TSource&gt;</td>
+                    <td><em>second</em></td>
+                    <td><p>An <span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span> whose distinct elements that also
+appear in the first sequence will be returned.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Func&lt;T, TResult&gt;</span>&lt;TSource, TKey&gt;</td>
+                    <td><em>keySelector</em></td>
+                    <td><p>A function used to select the key of the items to compare.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Collections.Generic.IEqualityComparer&lt;T&gt;</span>&lt;TKey&gt;</td>
                     <td><em>comparer</em></td>
-                    <td><pre sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="2" sourceendlinenumber="3"><code>An optional &lt;xref href=&quot;System.Collections.Generic.IEqualityComparer%601&quot; data-throw-if-not-resolved=&quot;false&quot;&gt;&lt;/xref&gt; to compare the
-keys of the items.
-</code></pre></td>
+                    <td><p>An optional <span class="xref">System.Collections.Generic.IEqualityComparer&lt;T&gt;</span> to compare the
+keys of the items.</p>
+</td>
                   </tr>
                 </tbody>
               </table>
@@ -1495,8 +1511,8 @@ keys of the items.
                 </thead>
                 <tbody>
                   <tr>
-                    <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TSource&gt;</td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Returns a sequence that contains the elements that form the set intersection of two sequences.</p>
+                    <td><span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span>&lt;TSource&gt;</td>
+                    <td><p>Returns a sequence that contains the elements that form the set intersection of two sequences.</p>
 </td>
                   </tr>
                 </tbody>
@@ -1531,17 +1547,17 @@ keys of the items.
                 <tbody>
                   <tr>
                     <td><span class="xref">System.ArgumentNullException</span></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">first can not be null.</p>
+                    <td><p>first can not be null.</p>
 </td>
                   </tr>
                   <tr>
                     <td><span class="xref">System.ArgumentNullException</span></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">second can not be null.</p>
+                    <td><p>second can not be null.</p>
 </td>
                   </tr>
                   <tr>
                     <td><span class="xref">System.ArgumentNullException</span></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">keySelector can not be null.</p>
+                    <td><p>keySelector can not be null.</p>
 </td>
                   </tr>
                 </tbody>
@@ -1553,9 +1569,10 @@ keys of the items.
               <span class="small pull-right mobile-hide">
                 <a href="https://github.com/davesenn/extend/blob/dev/.Src/Extend/System.Collections.Generic.IEnumerable[T]/IEnumerable[T].IsNullOrEmpty.cs/#L23">View Source</a>
               </span>
+              <a id="Extend_IEnumerableTEx_IsNullOrEmpty_" data-uid="Extend.IEnumerableTEx.IsNullOrEmpty*"></a>
               <h4 id="Extend_IEnumerableTEx_IsNullOrEmpty__1_System_Collections_Generic_IEnumerable___0__" data-uid="Extend.IEnumerableTEx.IsNullOrEmpty``1(System.Collections.Generic.IEnumerable{``0})">IsNullOrEmpty&lt;T&gt;(IEnumerable&lt;T&gt;)</h4>
-              <div class="markdown level1 summary"><pre sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="2" sourceendlinenumber="2"><code>Checks if the enumerable is empty or null.
-</code></pre></div>
+              <div class="markdown level1 summary"><p>Checks if the enumerable is empty or null.</p>
+</div>
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
               <div class="codewrapper">
@@ -1572,9 +1589,9 @@ keys of the items.
                 </thead>
                 <tbody>
                   <tr>
-                    <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;T&gt;</td>
+                    <td><span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span>&lt;T&gt;</td>
                     <td><em>enumerable</em></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The enumerable to check.</p>
+                    <td><p>The enumerable to check.</p>
 </td>
                   </tr>
                 </tbody>
@@ -1590,7 +1607,7 @@ keys of the items.
                 <tbody>
                   <tr>
                     <td><span class="xref">System.Boolean</span></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Returns true if the enumerable is empty or null, otherwise false.</p>
+                    <td><p>Returns true if the enumerable is empty or null, otherwise false.</p>
 </td>
                   </tr>
                 </tbody>
@@ -1617,9 +1634,10 @@ keys of the items.
               <span class="small pull-right mobile-hide">
                 <a href="https://github.com/davesenn/extend/blob/dev/.Src/Extend/System.Collections.Generic.IEnumerable[T]/IEnumerable[T].Many.cs/#L44">View Source</a>
               </span>
+              <a id="Extend_IEnumerableTEx_Many_" data-uid="Extend.IEnumerableTEx.Many*"></a>
               <h4 id="Extend_IEnumerableTEx_Many__1_System_Collections_Generic_IEnumerable___0__" data-uid="Extend.IEnumerableTEx.Many``1(System.Collections.Generic.IEnumerable{``0})">Many&lt;T&gt;(IEnumerable&lt;T&gt;)</h4>
-              <div class="markdown level1 summary"><pre sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="2" sourceendlinenumber="2"><code>Gets whether the IEnumerable contains more than one item.
-</code></pre></div>
+              <div class="markdown level1 summary"><p>Gets whether the IEnumerable contains more than one item.</p>
+</div>
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
               <div class="codewrapper">
@@ -1636,9 +1654,9 @@ keys of the items.
                 </thead>
                 <tbody>
                   <tr>
-                    <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;T&gt;</td>
+                    <td><span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span>&lt;T&gt;</td>
                     <td><em>enumerable</em></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The IEnumerable.</p>
+                    <td><p>The IEnumerable.</p>
 </td>
                   </tr>
                 </tbody>
@@ -1654,7 +1672,7 @@ keys of the items.
                 <tbody>
                   <tr>
                     <td><span class="xref">System.Boolean</span></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Returns true if the IEnumerable contains more than one item, otherwise false.</p>
+                    <td><p>Returns true if the IEnumerable contains more than one item, otherwise false.</p>
 </td>
                   </tr>
                 </tbody>
@@ -1685,7 +1703,7 @@ keys of the items.
                 <tbody>
                   <tr>
                     <td><span class="xref">System.ArgumentNullException</span></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The enumerable can not be null.</p>
+                    <td><p>The enumerable can not be null.</p>
 </td>
                   </tr>
                 </tbody>
@@ -1697,9 +1715,10 @@ keys of the items.
               <span class="small pull-right mobile-hide">
                 <a href="https://github.com/davesenn/extend/blob/dev/.Src/Extend/System.Collections.Generic.IEnumerable[T]/IEnumerable[T].Many.cs/#L27">View Source</a>
               </span>
+              <a id="Extend_IEnumerableTEx_Many_" data-uid="Extend.IEnumerableTEx.Many*"></a>
               <h4 id="Extend_IEnumerableTEx_Many__1_System_Collections_Generic_IEnumerable___0__System_Func___0_System_Boolean__" data-uid="Extend.IEnumerableTEx.Many``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean})">Many&lt;T&gt;(IEnumerable&lt;T&gt;, Func&lt;T, Boolean&gt;)</h4>
-              <div class="markdown level1 summary"><pre sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="2" sourceendlinenumber="2"><code>Gets whether the IEnumerable contains more than one item matching the given predicate.
-</code></pre></div>
+              <div class="markdown level1 summary"><p>Gets whether the IEnumerable contains more than one item matching the given predicate.</p>
+</div>
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
               <div class="codewrapper">
@@ -1716,15 +1735,15 @@ keys of the items.
                 </thead>
                 <tbody>
                   <tr>
-                    <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;T&gt;</td>
+                    <td><span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span>&lt;T&gt;</td>
                     <td><em>enumerable</em></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The IEnumerable.</p>
+                    <td><p>The IEnumerable.</p>
 </td>
                   </tr>
                   <tr>
-                    <td><span class="xref">System.Func</span>&lt;T, <span class="xref">System.Boolean</span>&gt;</td>
+                    <td><span class="xref">System.Func&lt;T, TResult&gt;</span>&lt;T, <span class="xref">System.Boolean</span>&gt;</td>
                     <td><em>predicate</em></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The predicate.</p>
+                    <td><p>The predicate.</p>
 </td>
                   </tr>
                 </tbody>
@@ -1740,7 +1759,7 @@ keys of the items.
                 <tbody>
                   <tr>
                     <td><span class="xref">System.Boolean</span></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Returns true if the IEnumerable contains more than one item matching the given predicate, otherwise false.</p>
+                    <td><p>Returns true if the IEnumerable contains more than one item matching the given predicate, otherwise false.</p>
 </td>
                   </tr>
                 </tbody>
@@ -1771,12 +1790,12 @@ keys of the items.
                 <tbody>
                   <tr>
                     <td><span class="xref">System.ArgumentNullException</span></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The enumerable can not be null.</p>
+                    <td><p>The enumerable can not be null.</p>
 </td>
                   </tr>
                   <tr>
                     <td><span class="xref">System.ArgumentNullException</span></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The predicate can not be null.</p>
+                    <td><p>The predicate can not be null.</p>
 </td>
                   </tr>
                 </tbody>
@@ -1788,9 +1807,10 @@ keys of the items.
               <span class="small pull-right mobile-hide">
                 <a href="https://github.com/davesenn/extend/blob/dev/.Src/Extend/System.Collections.Generic.IEnumerable[T]/IEnumerable[T].MinimumOf.cs/#L49">View Source</a>
               </span>
+              <a id="Extend_IEnumerableTEx_MinimumOf_" data-uid="Extend.IEnumerableTEx.MinimumOf*"></a>
               <h4 id="Extend_IEnumerableTEx_MinimumOf__1_System_Collections_Generic_IEnumerable___0__System_Int32_" data-uid="Extend.IEnumerableTEx.MinimumOf``1(System.Collections.Generic.IEnumerable{``0},System.Int32)">MinimumOf&lt;T&gt;(IEnumerable&lt;T&gt;, Int32)</h4>
-              <div class="markdown level1 summary"><pre sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="2" sourceendlinenumber="2"><code>Gets whether the IEnumerable contains at least the specified number of items.
-</code></pre></div>
+              <div class="markdown level1 summary"><p>Gets whether the IEnumerable contains at least the specified number of items.</p>
+</div>
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
               <div class="codewrapper">
@@ -1807,15 +1827,15 @@ keys of the items.
                 </thead>
                 <tbody>
                   <tr>
-                    <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;T&gt;</td>
+                    <td><span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span>&lt;T&gt;</td>
                     <td><em>enumerable</em></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The IEnumerable.</p>
+                    <td><p>The IEnumerable.</p>
 </td>
                   </tr>
                   <tr>
                     <td><span class="xref">System.Int32</span></td>
                     <td><em>count</em></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The minimum number of items.</p>
+                    <td><p>The minimum number of items.</p>
 </td>
                   </tr>
                 </tbody>
@@ -1831,7 +1851,7 @@ keys of the items.
                 <tbody>
                   <tr>
                     <td><span class="xref">System.Boolean</span></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Returns true if the IEnumerable contains at least the specified number of items, otherwise false.</p>
+                    <td><p>Returns true if the IEnumerable contains at least the specified number of items, otherwise false.</p>
 </td>
                   </tr>
                 </tbody>
@@ -1862,7 +1882,7 @@ keys of the items.
                 <tbody>
                   <tr>
                     <td><span class="xref">System.ArgumentNullException</span></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The enumerable can not be null.</p>
+                    <td><p>The enumerable can not be null.</p>
 </td>
                   </tr>
                 </tbody>
@@ -1874,9 +1894,10 @@ keys of the items.
               <span class="small pull-right mobile-hide">
                 <a href="https://github.com/davesenn/extend/blob/dev/.Src/Extend/System.Collections.Generic.IEnumerable[T]/IEnumerable[T].MinimumOf.cs/#L31">View Source</a>
               </span>
+              <a id="Extend_IEnumerableTEx_MinimumOf_" data-uid="Extend.IEnumerableTEx.MinimumOf*"></a>
               <h4 id="Extend_IEnumerableTEx_MinimumOf__1_System_Collections_Generic_IEnumerable___0__System_Int32_System_Func___0_System_Boolean__" data-uid="Extend.IEnumerableTEx.MinimumOf``1(System.Collections.Generic.IEnumerable{``0},System.Int32,System.Func{``0,System.Boolean})">MinimumOf&lt;T&gt;(IEnumerable&lt;T&gt;, Int32, Func&lt;T, Boolean&gt;)</h4>
-              <div class="markdown level1 summary"><pre sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="2" sourceendlinenumber="2"><code>Gets whether the IEnumerable contains at least the specified number of items matching the specified predicate.
-</code></pre></div>
+              <div class="markdown level1 summary"><p>Gets whether the IEnumerable contains at least the specified number of items matching the specified predicate.</p>
+</div>
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
               <div class="codewrapper">
@@ -1893,21 +1914,21 @@ keys of the items.
                 </thead>
                 <tbody>
                   <tr>
-                    <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;T&gt;</td>
+                    <td><span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span>&lt;T&gt;</td>
                     <td><em>enumerable</em></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The IEnumerable.</p>
+                    <td><p>The IEnumerable.</p>
 </td>
                   </tr>
                   <tr>
                     <td><span class="xref">System.Int32</span></td>
                     <td><em>count</em></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The minimum number of items.</p>
+                    <td><p>The minimum number of items.</p>
 </td>
                   </tr>
                   <tr>
-                    <td><span class="xref">System.Func</span>&lt;T, <span class="xref">System.Boolean</span>&gt;</td>
+                    <td><span class="xref">System.Func&lt;T, TResult&gt;</span>&lt;T, <span class="xref">System.Boolean</span>&gt;</td>
                     <td><em>predicate</em></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The predicate.</p>
+                    <td><p>The predicate.</p>
 </td>
                   </tr>
                 </tbody>
@@ -1923,9 +1944,9 @@ keys of the items.
                 <tbody>
                   <tr>
                     <td><span class="xref">System.Boolean</span></td>
-                    <td><pre sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="2" sourceendlinenumber="3"><code>Returns true if the IEnumerable contains at least the specified number of items matching the specified
-predicate, otherwise false.
-</code></pre></td>
+                    <td><p>Returns true if the IEnumerable contains at least the specified number of items matching the specified
+predicate, otherwise false.</p>
+</td>
                   </tr>
                 </tbody>
               </table>
@@ -1955,12 +1976,12 @@ predicate, otherwise false.
                 <tbody>
                   <tr>
                     <td><span class="xref">System.ArgumentNullException</span></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The enumerable can not be null.</p>
+                    <td><p>The enumerable can not be null.</p>
 </td>
                   </tr>
                   <tr>
                     <td><span class="xref">System.ArgumentNullException</span></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The predicate can not be null.</p>
+                    <td><p>The predicate can not be null.</p>
 </td>
                   </tr>
                 </tbody>
@@ -1972,9 +1993,10 @@ predicate, otherwise false.
               <span class="small pull-right mobile-hide">
                 <a href="https://github.com/davesenn/extend/blob/dev/.Src/Extend/System.Collections.Generic.IEnumerable[T]/IEnumerable[T].NotAny.cs/#L25">View Source</a>
               </span>
+              <a id="Extend_IEnumerableTEx_NotAny_" data-uid="Extend.IEnumerableTEx.NotAny*"></a>
               <h4 id="Extend_IEnumerableTEx_NotAny__1_System_Collections_Generic_IEnumerable___0__" data-uid="Extend.IEnumerableTEx.NotAny``1(System.Collections.Generic.IEnumerable{``0})">NotAny&lt;T&gt;(IEnumerable&lt;T&gt;)</h4>
-              <div class="markdown level1 summary"><pre sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="2" sourceendlinenumber="2"><code>Determines whether the given IEnumerable contains no items, or not.
-</code></pre></div>
+              <div class="markdown level1 summary"><p>Determines whether the given IEnumerable contains no items, or not.</p>
+</div>
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
               <div class="codewrapper">
@@ -1991,9 +2013,9 @@ predicate, otherwise false.
                 </thead>
                 <tbody>
                   <tr>
-                    <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;T&gt;</td>
+                    <td><span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span>&lt;T&gt;</td>
                     <td><em>enumerable</em></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The IEnumerable to check.</p>
+                    <td><p>The IEnumerable to check.</p>
 </td>
                   </tr>
                 </tbody>
@@ -2009,7 +2031,7 @@ predicate, otherwise false.
                 <tbody>
                   <tr>
                     <td><span class="xref">System.Boolean</span></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Returns true if the IEnumerable doesn&#39;t contain any items, otherwise false.</p>
+                    <td><p>Returns true if the IEnumerable doesn&#39;t contain any items, otherwise false.</p>
 </td>
                   </tr>
                 </tbody>
@@ -2040,7 +2062,7 @@ predicate, otherwise false.
                 <tbody>
                   <tr>
                     <td><span class="xref">System.ArgumentNullException</span></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The enumerable can not be null.</p>
+                    <td><p>The enumerable can not be null.</p>
 </td>
                   </tr>
                 </tbody>
@@ -2052,9 +2074,10 @@ predicate, otherwise false.
               <span class="small pull-right mobile-hide">
                 <a href="https://github.com/davesenn/extend/blob/dev/.Src/Extend/System.Collections.Generic.IEnumerable[T]/IEnumerable[T].NotAny.cs/#L43">View Source</a>
               </span>
+              <a id="Extend_IEnumerableTEx_NotAny_" data-uid="Extend.IEnumerableTEx.NotAny*"></a>
               <h4 id="Extend_IEnumerableTEx_NotAny__1_System_Collections_Generic_IEnumerable___0__System_Func___0_System_Boolean__" data-uid="Extend.IEnumerableTEx.NotAny``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean})">NotAny&lt;T&gt;(IEnumerable&lt;T&gt;, Func&lt;T, Boolean&gt;)</h4>
-              <div class="markdown level1 summary"><pre sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="2" sourceendlinenumber="2"><code>Determines whether the given IEnumerable contains no items matching the given predicate, or not.
-</code></pre></div>
+              <div class="markdown level1 summary"><p>Determines whether the given IEnumerable contains no items matching the given predicate, or not.</p>
+</div>
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
               <div class="codewrapper">
@@ -2071,15 +2094,15 @@ predicate, otherwise false.
                 </thead>
                 <tbody>
                   <tr>
-                    <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;T&gt;</td>
+                    <td><span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span>&lt;T&gt;</td>
                     <td><em>enumerable</em></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The IEnumerable to check.</p>
+                    <td><p>The IEnumerable to check.</p>
 </td>
                   </tr>
                   <tr>
-                    <td><span class="xref">System.Func</span>&lt;T, <span class="xref">System.Boolean</span>&gt;</td>
+                    <td><span class="xref">System.Func&lt;T, TResult&gt;</span>&lt;T, <span class="xref">System.Boolean</span>&gt;</td>
                     <td><em>predicate</em></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The predicate.</p>
+                    <td><p>The predicate.</p>
 </td>
                   </tr>
                 </tbody>
@@ -2095,7 +2118,7 @@ predicate, otherwise false.
                 <tbody>
                   <tr>
                     <td><span class="xref">System.Boolean</span></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Returns true if the IEnumerable doesn&#39;t contain any items, otherwise false.</p>
+                    <td><p>Returns true if the IEnumerable doesn&#39;t contain any items, otherwise false.</p>
 </td>
                   </tr>
                 </tbody>
@@ -2126,12 +2149,12 @@ predicate, otherwise false.
                 <tbody>
                   <tr>
                     <td><span class="xref">System.ArgumentNullException</span></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The enumerable can not be null.</p>
+                    <td><p>The enumerable can not be null.</p>
 </td>
                   </tr>
                   <tr>
                     <td><span class="xref">System.ArgumentNullException</span></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The predicate can not be null.</p>
+                    <td><p>The predicate can not be null.</p>
 </td>
                   </tr>
                 </tbody>
@@ -2143,9 +2166,10 @@ predicate, otherwise false.
               <span class="small pull-right mobile-hide">
                 <a href="https://github.com/davesenn/extend/blob/dev/.Src/Extend/System.Collections.Generic.IEnumerable[T]/IEnumerable[T].Partition.cs/#L27">View Source</a>
               </span>
+              <a id="Extend_IEnumerableTEx_Partition_" data-uid="Extend.IEnumerableTEx.Partition*"></a>
               <h4 id="Extend_IEnumerableTEx_Partition__1_System_Collections_Generic_IEnumerable___0__System_Int32_" data-uid="Extend.IEnumerableTEx.Partition``1(System.Collections.Generic.IEnumerable{``0},System.Int32)">Partition&lt;T&gt;(IEnumerable&lt;T&gt;, Int32)</h4>
-              <div class="markdown level1 summary"><pre sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="2" sourceendlinenumber="2"><code>Partitions the given sequence into blocks with the specified size.
-</code></pre></div>
+              <div class="markdown level1 summary"><p>Partitions the given sequence into blocks with the specified size.</p>
+</div>
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
               <div class="codewrapper">
@@ -2162,15 +2186,15 @@ predicate, otherwise false.
                 </thead>
                 <tbody>
                   <tr>
-                    <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;T&gt;</td>
+                    <td><span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span>&lt;T&gt;</td>
                     <td><em>source</em></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The sequence to partition.</p>
+                    <td><p>The sequence to partition.</p>
 </td>
                   </tr>
                   <tr>
                     <td><span class="xref">System.Int32</span></td>
                     <td><em>size</em></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The number of items per block.</p>
+                    <td><p>The number of items per block.</p>
 </td>
                   </tr>
                 </tbody>
@@ -2185,8 +2209,8 @@ predicate, otherwise false.
                 </thead>
                 <tbody>
                   <tr>
-                    <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Collections.Generic.IEnumerable</span>&lt;T&gt;&gt;</td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Returns the created blocks.</p>
+                    <td><span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span>&lt;<span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span>&lt;T&gt;&gt;</td>
+                    <td><p>Returns the created blocks.</p>
 </td>
                   </tr>
                 </tbody>
@@ -2217,12 +2241,12 @@ predicate, otherwise false.
                 <tbody>
                   <tr>
                     <td><span class="xref">System.ArgumentNullException</span></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">source can not be null.</p>
+                    <td><p>source can not be null.</p>
 </td>
                   </tr>
                   <tr>
                     <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">size is smaller than 1.</p>
+                    <td><p>size is smaller than 1.</p>
 </td>
                   </tr>
                 </tbody>
@@ -2234,9 +2258,10 @@ predicate, otherwise false.
               <span class="small pull-right mobile-hide">
                 <a href="https://github.com/davesenn/extend/blob/dev/.Src/Extend/System.Collections.Generic.IEnumerable[T]/IEnumerable[T].Prepend.cs/#L26">View Source</a>
               </span>
+              <a id="Extend_IEnumerableTEx_Prepend_" data-uid="Extend.IEnumerableTEx.Prepend*"></a>
               <h4 id="Extend_IEnumerableTEx_Prepend__1_System_Collections_Generic_IEnumerable___0____0_" data-uid="Extend.IEnumerableTEx.Prepend``1(System.Collections.Generic.IEnumerable{``0},``0)">Prepend&lt;T&gt;(IEnumerable&lt;T&gt;, T)</h4>
-              <div class="markdown level1 summary"><pre sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="2" sourceendlinenumber="2"><code>Prepends the given item to the given sequence.
-</code></pre></div>
+              <div class="markdown level1 summary"><p>Prepends the given item to the given sequence.</p>
+</div>
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
               <div class="codewrapper">
@@ -2253,15 +2278,15 @@ predicate, otherwise false.
                 </thead>
                 <tbody>
                   <tr>
-                    <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;T&gt;</td>
+                    <td><span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span>&lt;T&gt;</td>
                     <td><em>source</em></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The sequence to prepend an item to.</p>
+                    <td><p>The sequence to prepend an item to.</p>
 </td>
                   </tr>
                   <tr>
                     <td><span class="xref">T</span></td>
                     <td><em>item</em></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The item to prepend.</p>
+                    <td><p>The item to prepend.</p>
 </td>
                   </tr>
                 </tbody>
@@ -2276,8 +2301,8 @@ predicate, otherwise false.
                 </thead>
                 <tbody>
                   <tr>
-                    <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;T&gt;</td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The source sequence preceded by the prepended item.</p>
+                    <td><span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span>&lt;T&gt;</td>
+                    <td><p>The source sequence preceded by the prepended item.</p>
 </td>
                   </tr>
                 </tbody>
@@ -2308,7 +2333,7 @@ predicate, otherwise false.
                 <tbody>
                   <tr>
                     <td><span class="xref">System.ArgumentNullException</span></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">source can not be null.</p>
+                    <td><p>source can not be null.</p>
 </td>
                   </tr>
                 </tbody>
@@ -2320,9 +2345,10 @@ predicate, otherwise false.
               <span class="small pull-right mobile-hide">
                 <a href="https://github.com/davesenn/extend/blob/dev/.Src/Extend/System.Collections.Generic.IEnumerable[T]/IEnumerable[T].Randomize.cs/#L24">View Source</a>
               </span>
+              <a id="Extend_IEnumerableTEx_Randomize_" data-uid="Extend.IEnumerableTEx.Randomize*"></a>
               <h4 id="Extend_IEnumerableTEx_Randomize__1_System_Collections_Generic_IEnumerable___0__" data-uid="Extend.IEnumerableTEx.Randomize``1(System.Collections.Generic.IEnumerable{``0})">Randomize&lt;T&gt;(IEnumerable&lt;T&gt;)</h4>
-              <div class="markdown level1 summary"><pre sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="2" sourceendlinenumber="2"><code>Orders the items in the IEnumerable randomly.
-</code></pre></div>
+              <div class="markdown level1 summary"><p>Orders the items in the IEnumerable randomly.</p>
+</div>
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
               <div class="codewrapper">
@@ -2339,9 +2365,9 @@ predicate, otherwise false.
                 </thead>
                 <tbody>
                   <tr>
-                    <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;T&gt;</td>
+                    <td><span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span>&lt;T&gt;</td>
                     <td><em>enumerable</em></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The IEnumerable.</p>
+                    <td><p>The IEnumerable.</p>
 </td>
                   </tr>
                 </tbody>
@@ -2356,7 +2382,7 @@ predicate, otherwise false.
                 </thead>
                 <tbody>
                   <tr>
-                    <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;T&gt;</td>
+                    <td><span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span>&lt;T&gt;</td>
                     <td></td>
                   </tr>
                 </tbody>
@@ -2387,7 +2413,7 @@ predicate, otherwise false.
                 <tbody>
                   <tr>
                     <td><span class="xref">System.ArgumentNullException</span></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The enumerable can not be null.</p>
+                    <td><p>The enumerable can not be null.</p>
 </td>
                   </tr>
                 </tbody>
@@ -2399,9 +2425,10 @@ predicate, otherwise false.
               <span class="small pull-right mobile-hide">
                 <a href="https://github.com/davesenn/extend/blob/dev/.Src/Extend/System.Collections.Generic.IEnumerable[T]/IEnumerable[T].SpecificationForItems.cs/#L26">View Source</a>
               </span>
+              <a id="Extend_IEnumerableTEx_SpecificationForItems_" data-uid="Extend.IEnumerableTEx.SpecificationForItems*"></a>
               <h4 id="Extend_IEnumerableTEx_SpecificationForItems__1_System_Collections_Generic_IEnumerable___0__System_Func___0_System_Boolean__System_String_" data-uid="Extend.IEnumerableTEx.SpecificationForItems``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean},System.String)">SpecificationForItems&lt;T&gt;(IEnumerable&lt;T&gt;, Func&lt;T, Boolean&gt;, String)</h4>
-              <div class="markdown level1 summary"><pre sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="2" sourceendlinenumber="2"><code>Creates a specification with the given condition and message.
-</code></pre></div>
+              <div class="markdown level1 summary"><p>Creates a specification with the given condition and message.</p>
+</div>
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
               <div class="codewrapper">
@@ -2418,21 +2445,21 @@ predicate, otherwise false.
                 </thead>
                 <tbody>
                   <tr>
-                    <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;T&gt;</td>
+                    <td><span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span>&lt;T&gt;</td>
                     <td><em>enumerable</em></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The enumerable to create the expression on.</p>
+                    <td><p>The enumerable to create the expression on.</p>
 </td>
                   </tr>
                   <tr>
-                    <td><span class="xref">System.Func</span>&lt;T, <span class="xref">System.Boolean</span>&gt;</td>
+                    <td><span class="xref">System.Func&lt;T, TResult&gt;</span>&lt;T, <span class="xref">System.Boolean</span>&gt;</td>
                     <td><em>expression</em></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">An expression determining whether an object matches the specification or not.</p>
+                    <td><p>An expression determining whether an object matches the specification or not.</p>
 </td>
                   </tr>
                   <tr>
                     <td><span class="xref">System.String</span></td>
                     <td><em>message</em></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">An error messaged, returned when an object doesn&#39;t match the specification.</p>
+                    <td><p>An error messaged, returned when an object doesn&#39;t match the specification.</p>
 </td>
                   </tr>
                 </tbody>
@@ -2447,8 +2474,8 @@ predicate, otherwise false.
                 </thead>
                 <tbody>
                   <tr>
-                    <td><a class="xref" href="Extend.ISpecification-1.html#Extend_ISpecification_1">ISpecification</a>&lt;T&gt;</td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Returns a specification with the given condition and message.</p>
+                    <td><a class="xref" href="Extend.ISpecification-1.html#Extend_ISpecification_1">ISpecification&lt;T&gt;</a>&lt;T&gt;</td>
+                    <td><p>Returns a specification with the given condition and message.</p>
 </td>
                   </tr>
                 </tbody>
@@ -2479,7 +2506,7 @@ predicate, otherwise false.
                 <tbody>
                   <tr>
                     <td><span class="xref">System.ArgumentNullException</span></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">expression can not be null.</p>
+                    <td><p>expression can not be null.</p>
 </td>
                   </tr>
                 </tbody>
@@ -2491,9 +2518,10 @@ predicate, otherwise false.
               <span class="small pull-right mobile-hide">
                 <a href="https://github.com/davesenn/extend/blob/dev/.Src/Extend/System.Collections.Generic.IEnumerable[T]/IEnumerable[T].StringJoin.cs/#L57">View Source</a>
               </span>
+              <a id="Extend_IEnumerableTEx_StringJoin_" data-uid="Extend.IEnumerableTEx.StringJoin*"></a>
               <h4 id="Extend_IEnumerableTEx_StringJoin__1_System_Collections_Generic_IEnumerable___0__System_Func___0_System_String__System_String_" data-uid="Extend.IEnumerableTEx.StringJoin``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.String},System.String)">StringJoin&lt;T&gt;(IEnumerable&lt;T&gt;, Func&lt;T, String&gt;, String)</h4>
-              <div class="markdown level1 summary"><pre sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="2" sourceendlinenumber="2"><code>Concatenates all the elements of a IEnumerable, using the specified separator between each element.
-</code></pre></div>
+              <div class="markdown level1 summary"><p>Concatenates all the elements of a IEnumerable, using the specified separator between each element.</p>
+</div>
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
               <div class="codewrapper">
@@ -2510,23 +2538,23 @@ predicate, otherwise false.
                 </thead>
                 <tbody>
                   <tr>
-                    <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;T&gt;</td>
+                    <td><span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span>&lt;T&gt;</td>
                     <td><em>enumerable</em></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">An IEnumerable that contains the elements to concatenate.</p>
+                    <td><p>An IEnumerable that contains the elements to concatenate.</p>
 </td>
                   </tr>
                   <tr>
-                    <td><span class="xref">System.Func</span>&lt;T, <span class="xref">System.String</span>&gt;</td>
+                    <td><span class="xref">System.Func&lt;T, TResult&gt;</span>&lt;T, <span class="xref">System.String</span>&gt;</td>
                     <td><em>selector</em></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">A transform function to apply to each element.</p>
+                    <td><p>A transform function to apply to each element.</p>
 </td>
                   </tr>
                   <tr>
                     <td><span class="xref">System.String</span></td>
                     <td><em>separator</em></td>
-                    <td><pre sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="2" sourceendlinenumber="3"><code>The string to use as a separator.
-The separator is included in the returned string only if the given IEnumerable has more than one item.
-</code></pre></td>
+                    <td><p>The string to use as a separator.
+The separator is included in the returned string only if the given IEnumerable has more than one item.</p>
+</td>
                   </tr>
                 </tbody>
               </table>
@@ -2541,9 +2569,9 @@ The separator is included in the returned string only if the given IEnumerable h
                 <tbody>
                   <tr>
                     <td><span class="xref">System.String</span></td>
-                    <td><pre sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="2" sourceendlinenumber="3"><code>A string that consists of the elements in the IEnumerable delimited by the separator string.
-If the given IEnumerable is empty, the method returns String.Empty.
-</code></pre></td>
+                    <td><p>A string that consists of the elements in the IEnumerable delimited by the separator string.
+If the given IEnumerable is empty, the method returns String.Empty.</p>
+</td>
                   </tr>
                 </tbody>
               </table>
@@ -2573,7 +2601,7 @@ If the given IEnumerable is empty, the method returns String.Empty.
                 <tbody>
                   <tr>
                     <td><span class="xref">System.ArgumentNullException</span></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The enumerable can not be null.</p>
+                    <td><p>The enumerable can not be null.</p>
 </td>
                   </tr>
                 </tbody>
@@ -2585,9 +2613,10 @@ If the given IEnumerable is empty, the method returns String.Empty.
               <span class="small pull-right mobile-hide">
                 <a href="https://github.com/davesenn/extend/blob/dev/.Src/Extend/System.Collections.Generic.IEnumerable[T]/IEnumerable[T].StringJoin.cs/#L32">View Source</a>
               </span>
+              <a id="Extend_IEnumerableTEx_StringJoin_" data-uid="Extend.IEnumerableTEx.StringJoin*"></a>
               <h4 id="Extend_IEnumerableTEx_StringJoin__1_System_Collections_Generic_IEnumerable___0__System_String_" data-uid="Extend.IEnumerableTEx.StringJoin``1(System.Collections.Generic.IEnumerable{``0},System.String)">StringJoin&lt;T&gt;(IEnumerable&lt;T&gt;, String)</h4>
-              <div class="markdown level1 summary"><pre sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="2" sourceendlinenumber="2"><code>Concatenates all the elements of a IEnumerable, using the specified separator between each element.
-</code></pre></div>
+              <div class="markdown level1 summary"><p>Concatenates all the elements of a IEnumerable, using the specified separator between each element.</p>
+</div>
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
               <div class="codewrapper">
@@ -2604,17 +2633,17 @@ If the given IEnumerable is empty, the method returns String.Empty.
                 </thead>
                 <tbody>
                   <tr>
-                    <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;T&gt;</td>
+                    <td><span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span>&lt;T&gt;</td>
                     <td><em>enumerable</em></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">An IEnumerable that contains the elements to concatenate.</p>
+                    <td><p>An IEnumerable that contains the elements to concatenate.</p>
 </td>
                   </tr>
                   <tr>
                     <td><span class="xref">System.String</span></td>
                     <td><em>separator</em></td>
-                    <td><pre sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="2" sourceendlinenumber="3"><code>The string to use as a separator.
-The separator is included in the returned string only if the given IEnumerable has more than one item.
-</code></pre></td>
+                    <td><p>The string to use as a separator.
+The separator is included in the returned string only if the given IEnumerable has more than one item.</p>
+</td>
                   </tr>
                 </tbody>
               </table>
@@ -2629,9 +2658,9 @@ The separator is included in the returned string only if the given IEnumerable h
                 <tbody>
                   <tr>
                     <td><span class="xref">System.String</span></td>
-                    <td><pre sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="2" sourceendlinenumber="3"><code>A string that consists of the elements in the IEnumerable delimited by the separator string.
-If the given IEnumerable is empty, the method returns String.Empty.
-</code></pre></td>
+                    <td><p>A string that consists of the elements in the IEnumerable delimited by the separator string.
+If the given IEnumerable is empty, the method returns String.Empty.</p>
+</td>
                   </tr>
                 </tbody>
               </table>
@@ -2661,7 +2690,7 @@ If the given IEnumerable is empty, the method returns String.Empty.
                 <tbody>
                   <tr>
                     <td><span class="xref">System.ArgumentNullException</span></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The enumerable can not be null.</p>
+                    <td><p>The enumerable can not be null.</p>
 </td>
                   </tr>
                 </tbody>
@@ -2673,9 +2702,10 @@ If the given IEnumerable is empty, the method returns String.Empty.
               <span class="small pull-right mobile-hide">
                 <a href="https://github.com/davesenn/extend/blob/dev/.Src/Extend/System.Collections.Generic.IEnumerable[T]/IEnumerable[T].TakeUntil.cs/#L27">View Source</a>
               </span>
+              <a id="Extend_IEnumerableTEx_TakeUntil_" data-uid="Extend.IEnumerableTEx.TakeUntil*"></a>
               <h4 id="Extend_IEnumerableTEx_TakeUntil__1_System_Collections_Generic_IEnumerable___0__System_Func___0_System_Boolean__" data-uid="Extend.IEnumerableTEx.TakeUntil``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean})">TakeUntil&lt;T&gt;(IEnumerable&lt;T&gt;, Func&lt;T, Boolean&gt;)</h4>
-              <div class="markdown level1 summary"><pre sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="2" sourceendlinenumber="2"><code>Takes items from the given IEnumerable until the first item matches the specified predicate.
-</code></pre></div>
+              <div class="markdown level1 summary"><p>Takes items from the given IEnumerable until the first item matches the specified predicate.</p>
+</div>
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
               <div class="codewrapper">
@@ -2692,15 +2722,15 @@ If the given IEnumerable is empty, the method returns String.Empty.
                 </thead>
                 <tbody>
                   <tr>
-                    <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;T&gt;</td>
+                    <td><span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span>&lt;T&gt;</td>
                     <td><em>enumerable</em></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The IEnumerable.</p>
+                    <td><p>The IEnumerable.</p>
 </td>
                   </tr>
                   <tr>
-                    <td><span class="xref">System.Func</span>&lt;T, <span class="xref">System.Boolean</span>&gt;</td>
+                    <td><span class="xref">System.Func&lt;T, TResult&gt;</span>&lt;T, <span class="xref">System.Boolean</span>&gt;</td>
                     <td><em>predicate</em></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The predicate.</p>
+                    <td><p>The predicate.</p>
 </td>
                   </tr>
                 </tbody>
@@ -2715,8 +2745,8 @@ If the given IEnumerable is empty, the method returns String.Empty.
                 </thead>
                 <tbody>
                   <tr>
-                    <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;T&gt;</td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Returns the items from the start of the IEnumerable until the first item matching the predicate.</p>
+                    <td><span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span>&lt;T&gt;</td>
+                    <td><p>Returns the items from the start of the IEnumerable until the first item matching the predicate.</p>
 </td>
                   </tr>
                 </tbody>
@@ -2747,12 +2777,12 @@ If the given IEnumerable is empty, the method returns String.Empty.
                 <tbody>
                   <tr>
                     <td><span class="xref">System.ArgumentNullException</span></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The enumerable can not be null.</p>
+                    <td><p>The enumerable can not be null.</p>
 </td>
                   </tr>
                   <tr>
                     <td><span class="xref">System.ArgumentNullException</span></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The predicate can not be null.</p>
+                    <td><p>The predicate can not be null.</p>
 </td>
                   </tr>
                 </tbody>
@@ -2764,9 +2794,10 @@ If the given IEnumerable is empty, the method returns String.Empty.
               <span class="small pull-right mobile-hide">
                 <a href="https://github.com/davesenn/extend/blob/dev/.Src/Extend/System.Collections.Generic.IEnumerable[T]/IEnumerable[T].ToDictionary.cs/#L29">View Source</a>
               </span>
+              <a id="Extend_IEnumerableTEx_ToDictionary_" data-uid="Extend.IEnumerableTEx.ToDictionary*"></a>
               <h4 id="Extend_IEnumerableTEx_ToDictionary__2_System_Collections_Generic_IEnumerable_System_Linq_IGrouping___0___1___" data-uid="Extend.IEnumerableTEx.ToDictionary``2(System.Collections.Generic.IEnumerable{System.Linq.IGrouping{``0,``1}})">ToDictionary&lt;TKey, TValue&gt;(IEnumerable&lt;IGrouping&lt;TKey, TValue&gt;&gt;)</h4>
-              <div class="markdown level1 summary"><pre sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="2" sourceendlinenumber="2"><code>Converts the IEnumerable containing the groupings into a Dictionary of those groupings.
-</code></pre></div>
+              <div class="markdown level1 summary"><p>Converts the IEnumerable containing the groupings into a Dictionary of those groupings.</p>
+</div>
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
               <div class="codewrapper">
@@ -2783,9 +2814,9 @@ If the given IEnumerable is empty, the method returns String.Empty.
                 </thead>
                 <tbody>
                   <tr>
-                    <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Linq.IGrouping</span>&lt;TKey, TValue&gt;&gt;</td>
+                    <td><span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span>&lt;<span class="xref"></span>&lt;TKey, TValue&gt;&gt;</td>
                     <td><em>groupings</em></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The enumeration of groupings from a GroupBy() clause.</p>
+                    <td><p>The enumeration of groupings from a GroupBy() clause.</p>
 </td>
                   </tr>
                 </tbody>
@@ -2800,10 +2831,10 @@ If the given IEnumerable is empty, the method returns String.Empty.
                 </thead>
                 <tbody>
                   <tr>
-                    <td><span class="xref">System.Collections.Generic.Dictionary</span>&lt;TKey, <span class="xref">System.Collections.Generic.List</span>&lt;TValue&gt;&gt;</td>
-                    <td><pre sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="2" sourceendlinenumber="3"><code>Returns a dictionary of groupings such that the key of the dictionary is TKey type and the value is List of
-TValue type.
-</code></pre></td>
+                    <td><span class="xref">System.Collections.Generic.Dictionary&lt;TKey, TValue&gt;</span>&lt;TKey, <span class="xref">System.Collections.Generic.List&lt;T&gt;</span>&lt;TValue&gt;&gt;</td>
+                    <td><p>Returns a dictionary of groupings such that the key of the dictionary is TKey type and the value is List of
+TValue type.</p>
+</td>
                   </tr>
                 </tbody>
               </table>
@@ -2837,7 +2868,7 @@ TValue type.
                 <tbody>
                   <tr>
                     <td><span class="xref">System.ArgumentNullException</span></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The groupings can not be null.</p>
+                    <td><p>The groupings can not be null.</p>
 </td>
                   </tr>
                 </tbody>
@@ -2849,9 +2880,10 @@ TValue type.
               <span class="small pull-right mobile-hide">
                 <a href="https://github.com/davesenn/extend/blob/dev/.Src/Extend/System.Collections.Generic.IEnumerable[T]/IEnumerable[T].ToObservableCollection.cs/#L25">View Source</a>
               </span>
+              <a id="Extend_IEnumerableTEx_ToObservableCollection_" data-uid="Extend.IEnumerableTEx.ToObservableCollection*"></a>
               <h4 id="Extend_IEnumerableTEx_ToObservableCollection__1_System_Collections_Generic_IEnumerable___0__" data-uid="Extend.IEnumerableTEx.ToObservableCollection``1(System.Collections.Generic.IEnumerable{``0})">ToObservableCollection&lt;T&gt;(IEnumerable&lt;T&gt;)</h4>
-              <div class="markdown level1 summary"><pre sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="2" sourceendlinenumber="2"><code>Converts the given IEnumerable to a ObservableCollection.
-</code></pre></div>
+              <div class="markdown level1 summary"><p>Converts the given IEnumerable to a ObservableCollection.</p>
+</div>
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
               <div class="codewrapper">
@@ -2868,9 +2900,9 @@ TValue type.
                 </thead>
                 <tbody>
                   <tr>
-                    <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;T&gt;</td>
+                    <td><span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span>&lt;T&gt;</td>
                     <td><em>enumerable</em></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The IEnumerable.</p>
+                    <td><p>The IEnumerable.</p>
 </td>
                   </tr>
                 </tbody>
@@ -2885,8 +2917,8 @@ TValue type.
                 </thead>
                 <tbody>
                   <tr>
-                    <td><span class="xref">System.Collections.ObjectModel.ObservableCollection</span>&lt;T&gt;</td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The given IEnumerable as ObservableCollection.</p>
+                    <td><span class="xref">System.Collections.ObjectModel.ObservableCollection&lt;T&gt;</span>&lt;T&gt;</td>
+                    <td><p>The given IEnumerable as ObservableCollection.</p>
 </td>
                   </tr>
                 </tbody>
@@ -2917,7 +2949,7 @@ TValue type.
                 <tbody>
                   <tr>
                     <td><span class="xref">System.ArgumentNullException</span></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The enumerable can not be null.</p>
+                    <td><p>The enumerable can not be null.</p>
 </td>
                   </tr>
                 </tbody>
@@ -2929,9 +2961,10 @@ TValue type.
               <span class="small pull-right mobile-hide">
                 <a href="https://github.com/davesenn/extend/blob/dev/.Src/Extend/System.Collections.Generic.IEnumerable[T]/IEnumerable[T].Where.cs/#L27">View Source</a>
               </span>
+              <a id="Extend_IEnumerableTEx_Where_" data-uid="Extend.IEnumerableTEx.Where*"></a>
               <h4 id="Extend_IEnumerableTEx_Where__1_System_Collections_Generic_IEnumerable___0__Extend_ISpecification___0__" data-uid="Extend.IEnumerableTEx.Where``1(System.Collections.Generic.IEnumerable{``0},Extend.ISpecification{``0})">Where&lt;T&gt;(IEnumerable&lt;T&gt;, ISpecification&lt;T&gt;)</h4>
-              <div class="markdown level1 summary"><pre sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="2" sourceendlinenumber="2"><code>Returns all items of the given enumerable which satisfy the given specification.
-</code></pre></div>
+              <div class="markdown level1 summary"><p>Returns all items of the given enumerable which satisfy the given specification.</p>
+</div>
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
               <div class="codewrapper">
@@ -2948,15 +2981,15 @@ TValue type.
                 </thead>
                 <tbody>
                   <tr>
-                    <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;T&gt;</td>
+                    <td><span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span>&lt;T&gt;</td>
                     <td><em>enumerable</em></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The enumerable.</p>
+                    <td><p>The enumerable.</p>
 </td>
                   </tr>
                   <tr>
-                    <td><a class="xref" href="Extend.ISpecification-1.html#Extend_ISpecification_1">ISpecification</a>&lt;T&gt;</td>
+                    <td><a class="xref" href="Extend.ISpecification-1.html#Extend_ISpecification_1">ISpecification&lt;T&gt;</a>&lt;T&gt;</td>
                     <td><em>specification</em></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The specification.</p>
+                    <td><p>The specification.</p>
 </td>
                   </tr>
                 </tbody>
@@ -2971,8 +3004,8 @@ TValue type.
                 </thead>
                 <tbody>
                   <tr>
-                    <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;T&gt;</td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Returns the items which satisfy the given specification.</p>
+                    <td><span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span>&lt;T&gt;</td>
+                    <td><p>Returns the items which satisfy the given specification.</p>
 </td>
                   </tr>
                 </tbody>
@@ -3003,12 +3036,12 @@ TValue type.
                 <tbody>
                   <tr>
                     <td><span class="xref">System.ArgumentNullException</span></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">enumerable can not be null.</p>
+                    <td><p>enumerable can not be null.</p>
 </td>
                   </tr>
                   <tr>
                     <td><span class="xref">System.ArgumentNullException</span></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">specification can not be null.</p>
+                    <td><p>specification can not be null.</p>
 </td>
                   </tr>
                 </tbody>
@@ -3020,10 +3053,11 @@ TValue type.
               <span class="small pull-right mobile-hide">
                 <a href="https://github.com/davesenn/extend/blob/dev/.Src/Extend/System.Collections.Generic.IEnumerable[T]/IEnumerable[T].WhereIf.cs/#L29">View Source</a>
               </span>
+              <a id="Extend_IEnumerableTEx_WhereIf_" data-uid="Extend.IEnumerableTEx.WhereIf*"></a>
               <h4 id="Extend_IEnumerableTEx_WhereIf__1_System_Collections_Generic_IEnumerable___0__System_Boolean_System_Func___0_System_Boolean__" data-uid="Extend.IEnumerableTEx.WhereIf``1(System.Collections.Generic.IEnumerable{``0},System.Boolean,System.Func{``0,System.Boolean})">WhereIf&lt;T&gt;(IEnumerable&lt;T&gt;, Boolean, Func&lt;T, Boolean&gt;)</h4>
-              <div class="markdown level1 summary"><pre sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="2" sourceendlinenumber="3"><code>Performs a where predicate on the IEnumerable, if the given condition is true,
-otherwise returns all items of the IEnumerable.
-</code></pre></div>
+              <div class="markdown level1 summary"><p>Performs a where predicate on the IEnumerable, if the given condition is true,
+otherwise returns all items of the IEnumerable.</p>
+</div>
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
               <div class="codewrapper">
@@ -3040,21 +3074,21 @@ otherwise returns all items of the IEnumerable.
                 </thead>
                 <tbody>
                   <tr>
-                    <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;T&gt;</td>
+                    <td><span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span>&lt;T&gt;</td>
                     <td><em>source</em></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The IEnumerable containing the items.</p>
+                    <td><p>The IEnumerable containing the items.</p>
 </td>
                   </tr>
                   <tr>
                     <td><span class="xref">System.Boolean</span></td>
                     <td><em>condition</em></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The condition determining whether the where predicate gets applied or not.</p>
+                    <td><p>The condition determining whether the where predicate gets applied or not.</p>
 </td>
                   </tr>
                   <tr>
-                    <td><span class="xref">System.Func</span>&lt;T, <span class="xref">System.Boolean</span>&gt;</td>
+                    <td><span class="xref">System.Func&lt;T, TResult&gt;</span>&lt;T, <span class="xref">System.Boolean</span>&gt;</td>
                     <td><em>predicate</em></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The where predicate.</p>
+                    <td><p>The where predicate.</p>
 </td>
                   </tr>
                 </tbody>
@@ -3069,8 +3103,8 @@ otherwise returns all items of the IEnumerable.
                 </thead>
                 <tbody>
                   <tr>
-                    <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;T&gt;</td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Returns the result of the predicate if the condition is true, otherwise the source IEnumerable.</p>
+                    <td><span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span>&lt;T&gt;</td>
+                    <td><p>Returns the result of the predicate if the condition is true, otherwise the source IEnumerable.</p>
 </td>
                   </tr>
                 </tbody>
@@ -3101,12 +3135,12 @@ otherwise returns all items of the IEnumerable.
                 <tbody>
                   <tr>
                     <td><span class="xref">System.ArgumentNullException</span></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The source can not be null.</p>
+                    <td><p>The source can not be null.</p>
 </td>
                   </tr>
                   <tr>
                     <td><span class="xref">System.ArgumentNullException</span></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The predicate can not be null.</p>
+                    <td><p>The predicate can not be null.</p>
 </td>
                   </tr>
                 </tbody>
@@ -3118,10 +3152,11 @@ otherwise returns all items of the IEnumerable.
               <span class="small pull-right mobile-hide">
                 <a href="https://github.com/davesenn/extend/blob/dev/.Src/Extend/System.Collections.Generic.IEnumerable[T]/IEnumerable[T].WhereIf.cs/#L53">View Source</a>
               </span>
+              <a id="Extend_IEnumerableTEx_WhereIf_" data-uid="Extend.IEnumerableTEx.WhereIf*"></a>
               <h4 id="Extend_IEnumerableTEx_WhereIf__1_System_Collections_Generic_IEnumerable___0__System_Boolean_System_Func___0_System_Int32_System_Boolean__" data-uid="Extend.IEnumerableTEx.WhereIf``1(System.Collections.Generic.IEnumerable{``0},System.Boolean,System.Func{``0,System.Int32,System.Boolean})">WhereIf&lt;T&gt;(IEnumerable&lt;T&gt;, Boolean, Func&lt;T, Int32, Boolean&gt;)</h4>
-              <div class="markdown level1 summary"><pre sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="2" sourceendlinenumber="3"><code>Performs a where predicate on the IEnumerable, if the given condition is true,
-otherwise returns all items of the IEnumerable.
-</code></pre></div>
+              <div class="markdown level1 summary"><p>Performs a where predicate on the IEnumerable, if the given condition is true,
+otherwise returns all items of the IEnumerable.</p>
+</div>
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
               <div class="codewrapper">
@@ -3138,21 +3173,21 @@ otherwise returns all items of the IEnumerable.
                 </thead>
                 <tbody>
                   <tr>
-                    <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;T&gt;</td>
+                    <td><span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span>&lt;T&gt;</td>
                     <td><em>source</em></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The IEnumerable containing the items.</p>
+                    <td><p>The IEnumerable containing the items.</p>
 </td>
                   </tr>
                   <tr>
                     <td><span class="xref">System.Boolean</span></td>
                     <td><em>condition</em></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The condition determining whether the where predicate gets applied or not.</p>
+                    <td><p>The condition determining whether the where predicate gets applied or not.</p>
 </td>
                   </tr>
                   <tr>
-                    <td><span class="xref">System.Func</span>&lt;T, <span class="xref">System.Int32</span>, <span class="xref">System.Boolean</span>&gt;</td>
+                    <td><span class="xref">System.Func&lt;T1, T2, TResult&gt;</span>&lt;T, <span class="xref">System.Int32</span>, <span class="xref">System.Boolean</span>&gt;</td>
                     <td><em>predicate</em></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The where predicate.</p>
+                    <td><p>The where predicate.</p>
 </td>
                   </tr>
                 </tbody>
@@ -3167,8 +3202,8 @@ otherwise returns all items of the IEnumerable.
                 </thead>
                 <tbody>
                   <tr>
-                    <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;T&gt;</td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Returns the result of the predicate if the condition is true, otherwise the source IEnumerable.</p>
+                    <td><span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span>&lt;T&gt;</td>
+                    <td><p>Returns the result of the predicate if the condition is true, otherwise the source IEnumerable.</p>
 </td>
                   </tr>
                 </tbody>
@@ -3199,12 +3234,12 @@ otherwise returns all items of the IEnumerable.
                 <tbody>
                   <tr>
                     <td><span class="xref">System.ArgumentNullException</span></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The source can not be null.</p>
+                    <td><p>The source can not be null.</p>
 </td>
                   </tr>
                   <tr>
                     <td><span class="xref">System.ArgumentNullException</span></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The predicate can not be null.</p>
+                    <td><p>The predicate can not be null.</p>
 </td>
                   </tr>
                 </tbody>
@@ -3216,9 +3251,10 @@ otherwise returns all items of the IEnumerable.
               <span class="small pull-right mobile-hide">
                 <a href="https://github.com/davesenn/extend/blob/dev/.Src/Extend/System.Collections.Generic.IEnumerable[T]/IEnumerable[T].WhereNot.cs/#L27">View Source</a>
               </span>
+              <a id="Extend_IEnumerableTEx_WhereNot_" data-uid="Extend.IEnumerableTEx.WhereNot*"></a>
               <h4 id="Extend_IEnumerableTEx_WhereNot__1_System_Collections_Generic_IEnumerable___0__Extend_ISpecification___0__" data-uid="Extend.IEnumerableTEx.WhereNot``1(System.Collections.Generic.IEnumerable{``0},Extend.ISpecification{``0})">WhereNot&lt;T&gt;(IEnumerable&lt;T&gt;, ISpecification&lt;T&gt;)</h4>
-              <div class="markdown level1 summary"><pre sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="2" sourceendlinenumber="2"><code>Returns all items of the given enumerable which doesn&#39;t satisfy the given specification.
-</code></pre></div>
+              <div class="markdown level1 summary"><p>Returns all items of the given enumerable which doesn&#39;t satisfy the given specification.</p>
+</div>
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
               <div class="codewrapper">
@@ -3235,15 +3271,15 @@ otherwise returns all items of the IEnumerable.
                 </thead>
                 <tbody>
                   <tr>
-                    <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;T&gt;</td>
+                    <td><span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span>&lt;T&gt;</td>
                     <td><em>enumerable</em></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The enumerable.</p>
+                    <td><p>The enumerable.</p>
 </td>
                   </tr>
                   <tr>
-                    <td><a class="xref" href="Extend.ISpecification-1.html#Extend_ISpecification_1">ISpecification</a>&lt;T&gt;</td>
+                    <td><a class="xref" href="Extend.ISpecification-1.html#Extend_ISpecification_1">ISpecification&lt;T&gt;</a>&lt;T&gt;</td>
                     <td><em>specification</em></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The specification.</p>
+                    <td><p>The specification.</p>
 </td>
                   </tr>
                 </tbody>
@@ -3258,8 +3294,8 @@ otherwise returns all items of the IEnumerable.
                 </thead>
                 <tbody>
                   <tr>
-                    <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;T&gt;</td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Returns the items which doesn&#39;t satisfy the given specification.</p>
+                    <td><span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span>&lt;T&gt;</td>
+                    <td><p>Returns the items which doesn&#39;t satisfy the given specification.</p>
 </td>
                   </tr>
                 </tbody>
@@ -3290,12 +3326,12 @@ otherwise returns all items of the IEnumerable.
                 <tbody>
                   <tr>
                     <td><span class="xref">System.ArgumentNullException</span></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">enumerable can not be null.</p>
+                    <td><p>enumerable can not be null.</p>
 </td>
                   </tr>
                   <tr>
                     <td><span class="xref">System.ArgumentNullException</span></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">specification can not be null.</p>
+                    <td><p>specification can not be null.</p>
 </td>
                   </tr>
                 </tbody>
@@ -3307,9 +3343,10 @@ otherwise returns all items of the IEnumerable.
               <span class="small pull-right mobile-hide">
                 <a href="https://github.com/davesenn/extend/blob/dev/.Src/Extend/System.Collections.Generic.IEnumerable[T]/IEnumerable[T].WithIndex.cs/#L25">View Source</a>
               </span>
+              <a id="Extend_IEnumerableTEx_WithIndex_" data-uid="Extend.IEnumerableTEx.WithIndex*"></a>
               <h4 id="Extend_IEnumerableTEx_WithIndex__1_System_Collections_Generic_IEnumerable___0__" data-uid="Extend.IEnumerableTEx.WithIndex``1(System.Collections.Generic.IEnumerable{``0})">WithIndex&lt;T&gt;(IEnumerable&lt;T&gt;)</h4>
-              <div class="markdown level1 summary"><pre sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="2" sourceendlinenumber="2"><code>Associates an index to each element of the source IEnumerable.
-</code></pre></div>
+              <div class="markdown level1 summary"><p>Associates an index to each element of the source IEnumerable.</p>
+</div>
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
               <div class="codewrapper">
@@ -3326,9 +3363,9 @@ otherwise returns all items of the IEnumerable.
                 </thead>
                 <tbody>
                   <tr>
-                    <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;T&gt;</td>
+                    <td><span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span>&lt;T&gt;</td>
                     <td><em>source</em></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The source IEnumerable.</p>
+                    <td><p>The source IEnumerable.</p>
 </td>
                   </tr>
                 </tbody>
@@ -3343,8 +3380,8 @@ otherwise returns all items of the IEnumerable.
                 </thead>
                 <tbody>
                   <tr>
-                    <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Extend.IIndexedItem-1.html#Extend_IIndexedItem_1">IIndexedItem</a>&lt;T&gt;&gt;</td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">A sequence of elements paired with their index in the sequence.</p>
+                    <td><span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span>&lt;<a class="xref" href="Extend.IIndexedItem-1.html#Extend_IIndexedItem_1">IIndexedItem&lt;T&gt;</a>&lt;T&gt;&gt;</td>
+                    <td><p>A sequence of elements paired with their index in the sequence.</p>
 </td>
                   </tr>
                 </tbody>
@@ -3375,7 +3412,7 @@ otherwise returns all items of the IEnumerable.
                 <tbody>
                   <tr>
                     <td><span class="xref">System.ArgumentNullException</span></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">source can not be null.</p>
+                    <td><p>source can not be null.</p>
 </td>
                   </tr>
                 </tbody>
@@ -3387,9 +3424,10 @@ otherwise returns all items of the IEnumerable.
               <span class="small pull-right mobile-hide">
                 <a href="https://github.com/davesenn/extend/blob/dev/.Src/Extend/System.Collections.Generic.IEnumerable[T]/IEnumerable[T].WithoutIndex.cs/#L25">View Source</a>
               </span>
+              <a id="Extend_IEnumerableTEx_WithoutIndex_" data-uid="Extend.IEnumerableTEx.WithoutIndex*"></a>
               <h4 id="Extend_IEnumerableTEx_WithoutIndex__1_System_Collections_Generic_IEnumerable_Extend_IIndexedItem___0___" data-uid="Extend.IEnumerableTEx.WithoutIndex``1(System.Collections.Generic.IEnumerable{Extend.IIndexedItem{``0}})">WithoutIndex&lt;T&gt;(IEnumerable&lt;IIndexedItem&lt;T&gt;&gt;)</h4>
-              <div class="markdown level1 summary"><pre sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="2" sourceendlinenumber="2"><code>Removes the indexes from a IEnumerable of indexed elements, returning only the elements themselves.
-</code></pre></div>
+              <div class="markdown level1 summary"><p>Removes the indexes from a IEnumerable of indexed elements, returning only the elements themselves.</p>
+</div>
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
               <div class="codewrapper">
@@ -3406,9 +3444,9 @@ otherwise returns all items of the IEnumerable.
                 </thead>
                 <tbody>
                   <tr>
-                    <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Extend.IIndexedItem-1.html#Extend_IIndexedItem_1">IIndexedItem</a>&lt;T&gt;&gt;</td>
+                    <td><span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span>&lt;<a class="xref" href="Extend.IIndexedItem-1.html#Extend_IIndexedItem_1">IIndexedItem&lt;T&gt;</a>&lt;T&gt;&gt;</td>
                     <td><em>source</em></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The IEnumerable to remove the indexes from.</p>
+                    <td><p>The IEnumerable to remove the indexes from.</p>
 </td>
                   </tr>
                 </tbody>
@@ -3423,8 +3461,8 @@ otherwise returns all items of the IEnumerable.
                 </thead>
                 <tbody>
                   <tr>
-                    <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;T&gt;</td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">A IEnumerable of elements without their associated indexes.</p>
+                    <td><span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span>&lt;T&gt;</td>
+                    <td><p>A IEnumerable of elements without their associated indexes.</p>
 </td>
                   </tr>
                 </tbody>
@@ -3455,7 +3493,7 @@ otherwise returns all items of the IEnumerable.
                 <tbody>
                   <tr>
                     <td><span class="xref">System.ArgumentNullException</span></td>
-                    <td><p sourcefile="api/Extend.IEnumerableTEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">source can not be null.</p>
+                    <td><p>source can not be null.</p>
 </td>
                   </tr>
                 </tbody>

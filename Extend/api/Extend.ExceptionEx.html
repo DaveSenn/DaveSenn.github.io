@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class PropertyInfoEx
+    <title>Class ExceptionEx
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class PropertyInfoEx
+    <meta name="title" content="Class ExceptionEx
    ">
     <meta name="generator" content="docfx 2.7.2.0">
     
@@ -68,15 +68,15 @@
             <article class="content wrap" id="_content">
               
               
-              <h1 id="Extend_PropertyInfoEx" data-uid="Extend.PropertyInfoEx">Class PropertyInfoEx
+              <h1 id="Extend_ExceptionEx" data-uid="Extend.ExceptionEx">Class ExceptionEx
               </h1>
-              <div class="markdown level0 summary"><p>Class containing some extension methods for <span class="xref">System.Reflection.PropertyInfo</span>.</p>
+              <div class="markdown level0 summary"><p>Class containing some extension methods for <span class="xref">System.Exception</span>.</p>
 </div>
               <div class="markdown level0 conceptual"></div>
               <div class="inheritance">
                 <h5>Inheritance</h5>
                   <div class="level0"><span class="xref">System.Object</span></div>
-                  <div class="level1"><span class="xref">PropertyInfoEx</span></div>
+                  <div class="level1"><span class="xref">ExceptionEx</span></div>
               </div>
               <div class="inheritedMembers">
                 <h5>Inherited Members</h5>
@@ -104,27 +104,27 @@
               </div>
               <h6><strong>Namespace</strong>:Extend</h6>
               <h6><strong>Assembly</strong>:Extend.dll</h6>
-              <h5 id="Extend_PropertyInfoEx_syntax">Syntax</h5>
+              <h5 id="Extend_ExceptionEx_syntax">Syntax</h5>
               <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public static class PropertyInfoEx</code></pre>
+                <pre><code class="lang-csharp hljs">public static class ExceptionEx</code></pre>
               </div>
               <h3 id="methods">Methods
               </h3>
               <span class="small pull-right mobile-hide">
                 <span class="divider">|</span>
-                <a href="https://github.com/davesenn/extend/new/dev/.Doc/docfx_project/apispec/new?filename=Extend_PropertyInfoEx_ToMemberInformation_System_Reflection_PropertyInfo_Extend_IMemberInformation_.md&amp;value=---%0Auid%3A%20Extend.PropertyInfoEx.ToMemberInformation(System.Reflection.PropertyInfo%2CExtend.IMemberInformation)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+                <a href="https://github.com/davesenn/extend/new/dev/.Doc/docfx_project/apispec/new?filename=Extend_ExceptionEx_FormatException_System_Exception_System_Action_System_Text_StringBuilder__.md&amp;value=---%0Auid%3A%20Extend.ExceptionEx.FormatException(System.Exception%2CSystem.Action%7BSystem.Text.StringBuilder%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
               </span>
               <span class="small pull-right mobile-hide">
-                <a href="https://github.com/davesenn/extend/blob/dev/.Src/Extend/System.Reflection/PropertyInfo.ToMemberInformation.cs/#L23">View Source</a>
+                <a href="https://github.com/davesenn/extend/blob/dev/.Src/Extend/System.Exception/Exception.FormatException.cs/#L23">View Source</a>
               </span>
-              <a id="Extend_PropertyInfoEx_ToMemberInformation_" data-uid="Extend.PropertyInfoEx.ToMemberInformation*"></a>
-              <h4 id="Extend_PropertyInfoEx_ToMemberInformation_System_Reflection_PropertyInfo_Extend_IMemberInformation_" data-uid="Extend.PropertyInfoEx.ToMemberInformation(System.Reflection.PropertyInfo,Extend.IMemberInformation)">ToMemberInformation(PropertyInfo, IMemberInformation)</h4>
-              <div class="markdown level1 summary"><p>Creates a <a class="xref" href="Extend.IMemberInformation.html#Extend_IMemberInformation">IMemberInformation</a> based on the given <span class="xref">System.Reflection.PropertyInfo</span> and parent information.</p>
+              <a id="Extend_ExceptionEx_FormatException_" data-uid="Extend.ExceptionEx.FormatException*"></a>
+              <h4 id="Extend_ExceptionEx_FormatException_System_Exception_System_Action_System_Text_StringBuilder__" data-uid="Extend.ExceptionEx.FormatException(System.Exception,System.Action{System.Text.StringBuilder})">FormatException(Exception, Action&lt;StringBuilder&gt;)</h4>
+              <div class="markdown level1 summary"><p>Formates the given exception.</p>
 </div>
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
               <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public static IMemberInformation ToMemberInformation(this PropertyInfo propertyInfo, IMemberInformation parentMemberInformation)</code></pre>
+                <pre><code class="lang-csharp hljs">public static string FormatException(this Exception ex, Action&lt;StringBuilder&gt; action = null)</code></pre>
               </div>
               <h5 class="parameters">Parameters</h5>
               <table class="table table-bordered table-striped table-condensed">
@@ -137,15 +137,15 @@
                 </thead>
                 <tbody>
                   <tr>
-                    <td><span class="xref">System.Reflection.PropertyInfo</span></td>
-                    <td><em>propertyInfo</em></td>
-                    <td><p>The property information.</p>
+                    <td><span class="xref">System.Exception</span></td>
+                    <td><em>ex</em></td>
+                    <td><p>The exception to format.</p>
 </td>
                   </tr>
                   <tr>
-                    <td><a class="xref" href="Extend.IMemberInformation.html#Extend_IMemberInformation">IMemberInformation</a></td>
-                    <td><em>parentMemberInformation</em></td>
-                    <td><p>The parent of the given property.</p>
+                    <td><span class="xref">System.Action&lt;T&gt;</span>&lt;<span class="xref">System.Text.StringBuilder</span>&gt;</td>
+                    <td><em>action</em></td>
+                    <td><p>A optional action to add custom content.</p>
 </td>
                   </tr>
                 </tbody>
@@ -160,8 +160,8 @@
                 </thead>
                 <tbody>
                   <tr>
-                    <td><a class="xref" href="Extend.IMemberInformation.html#Extend_IMemberInformation">IMemberInformation</a></td>
-                    <td><p>Returns the new created member information.</p>
+                    <td><span class="xref">System.String</span></td>
+                    <td><p>Returns the formated exception.</p>
 </td>
                   </tr>
                 </tbody>
@@ -177,7 +177,7 @@
                 <tbody>
                   <tr>
                     <td><span class="xref">System.ArgumentNullException</span></td>
-                    <td><p>propertyInfo can not be null.</p>
+                    <td><p>ex can not be null.</p>
 </td>
                   </tr>
                 </tbody>
@@ -190,10 +190,10 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/davesenn/extend/new/dev/.Doc/docfx_project/apispec/new?filename=Extend_PropertyInfoEx.md&amp;value=---%0Auid%3A%20Extend.PropertyInfoEx%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/davesenn/extend/new/dev/.Doc/docfx_project/apispec/new?filename=Extend_ExceptionEx.md&amp;value=---%0Auid%3A%20Extend.ExceptionEx%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/davesenn/extend/blob/dev/.Src/Extend/System.Reflection/PropertyInfo.ToMemberInformation.cs/#L14" class="contribution-link">View Source</a>
+                    <a href="https://github.com/davesenn/extend/blob/dev/.Src/Extend/System.Exception/Exception.FormatException.cs/#L14" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

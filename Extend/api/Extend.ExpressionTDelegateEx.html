@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
   
@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class ExpressionTDelegateEx
    ">
-    <meta name="generator" content="docfx 2.6.2.0">
+    <meta name="generator" content="docfx 2.7.2.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -70,8 +70,8 @@
               
               <h1 id="Extend_ExpressionTDelegateEx" data-uid="Extend.ExpressionTDelegateEx">Class ExpressionTDelegateEx
               </h1>
-              <div class="markdown level0 summary"><pre sourcefile="api/Extend.ExpressionTDelegateEx.yml" sourcestartlinenumber="2" sourceendlinenumber="2"><code>Class containing some extension methods for &lt;xref href=&quot;System.Linq.Expressions.Expression%601&quot; data-throw-if-not-resolved=&quot;false&quot;&gt;&lt;/xref&gt;.
-</code></pre></div>
+              <div class="markdown level0 summary"><p>Class containing some extension methods for <span class="xref">System.Linq.Expressions.Expression&lt;TDelegate&gt;</span>.</p>
+</div>
               <div class="markdown level0 conceptual"></div>
               <div class="inheritance">
                 <h5>Inheritance</h5>
@@ -117,9 +117,10 @@
               <span class="small pull-right mobile-hide">
                 <a href="https://github.com/davesenn/extend/blob/dev/.Src/Extend/System.Linq.Expressions.Expression[TDelegate]/Expression[TDelegate].GetMemberInfoFromExpression.cs/#L29">View Source</a>
               </span>
+              <a id="Extend_ExpressionTDelegateEx_GetMemberInfoFromExpression_" data-uid="Extend.ExpressionTDelegateEx.GetMemberInfoFromExpression*"></a>
               <h4 id="Extend_ExpressionTDelegateEx_GetMemberInfoFromExpression__2_System_Linq_Expressions_Expression_System_Func___0___1___" data-uid="Extend.ExpressionTDelegateEx.GetMemberInfoFromExpression``2(System.Linq.Expressions.Expression{System.Func{``0,``1}})">GetMemberInfoFromExpression&lt;TDeclairingType, TMember&gt;(Expression&lt;Func&lt;TDeclairingType, TMember&gt;&gt;)</h4>
-              <div class="markdown level1 summary"><pre sourcefile="api/Extend.ExpressionTDelegateEx.yml" sourcestartlinenumber="2" sourceendlinenumber="2"><code>Gets the member info of from the given member expression.
-</code></pre></div>
+              <div class="markdown level1 summary"><p>Gets the member info of from the given member expression.</p>
+</div>
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
               <div class="codewrapper">
@@ -136,9 +137,9 @@
                 </thead>
                 <tbody>
                   <tr>
-                    <td><span class="xref">System.Linq.Expressions.Expression</span>&lt;<span class="xref">System.Func</span>&lt;TDeclairingType, TMember&gt;&gt;</td>
+                    <td><span class="xref">System.Linq.Expressions.Expression&lt;TDelegate&gt;</span>&lt;<span class="xref">System.Func&lt;T, TResult&gt;</span>&lt;TDeclairingType, TMember&gt;&gt;</td>
                     <td><em>expression</em></td>
-                    <td><p sourcefile="api/Extend.ExpressionTDelegateEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The member expression.</p>
+                    <td><p>The member expression.</p>
 </td>
                   </tr>
                 </tbody>
@@ -154,7 +155,7 @@
                 <tbody>
                   <tr>
                     <td><span class="xref">System.Reflection.MemberInfo</span></td>
-                    <td><p sourcefile="api/Extend.ExpressionTDelegateEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Returns the member info from the given expression, or null if the expression is not valid.</p>
+                    <td><p>Returns the member info from the given expression, or null if the expression is not valid.</p>
 </td>
                   </tr>
                 </tbody>
@@ -179,9 +180,9 @@
                 </tbody>
               </table>
               <h5 id="Extend_ExpressionTDelegateEx_GetMemberInfoFromExpression__2_System_Linq_Expressions_Expression_System_Func___0___1____remarks">Remarks</h5>
-              <div class="markdown level1 remarks"><pre sourcefile="api/Extend.ExpressionTDelegateEx.yml" sourcestartlinenumber="2" sourceendlinenumber="3"><code>Contains logic to work with unary expressions:
-E.g. to work with expressions containing a Convert node.
-</code></pre></div>
+              <div class="markdown level1 remarks"><p>Contains logic to work with unary expressions:
+E.g. to work with expressions containing a Convert node.</p>
+</div>
               <h5 class="exceptions">Exceptions</h5>
               <table class="table table-bordered table-striped table-condensed">
                 <thead>
@@ -193,7 +194,7 @@ E.g. to work with expressions containing a Convert node.
                 <tbody>
                   <tr>
                     <td><span class="xref">System.ArgumentNullException</span></td>
-                    <td><p sourcefile="api/Extend.ExpressionTDelegateEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">expression can not be null.</p>
+                    <td><p>expression can not be null.</p>
 </td>
                   </tr>
                 </tbody>
@@ -205,9 +206,10 @@ E.g. to work with expressions containing a Convert node.
               <span class="small pull-right mobile-hide">
                 <a href="https://github.com/davesenn/extend/blob/dev/.Src/Extend/System.Linq.Expressions.Expression[TDelegate]/Expression[TDelegate].GetMemberPath.cs/#L23">View Source</a>
               </span>
+              <a id="Extend_ExpressionTDelegateEx_GetMemberPath_" data-uid="Extend.ExpressionTDelegateEx.GetMemberPath*"></a>
               <h4 id="Extend_ExpressionTDelegateEx_GetMemberPath__2_System_Linq_Expressions_Expression_System_Func___0___1___" data-uid="Extend.ExpressionTDelegateEx.GetMemberPath``2(System.Linq.Expressions.Expression{System.Func{``0,``1}})">GetMemberPath&lt;TDeclaringType, TMember&gt;(Expression&lt;Func&lt;TDeclaringType, TMember&gt;&gt;)</h4>
-              <div class="markdown level1 summary"><pre sourcefile="api/Extend.ExpressionTDelegateEx.yml" sourcestartlinenumber="2" sourceendlinenumber="2"><code>Gets a dotted path of property names representing the property expression. E.g. Parent.Child.Sibling.Name.
-</code></pre></div>
+              <div class="markdown level1 summary"><p>Gets a dotted path of property names representing the property expression. E.g. Parent.Child.Sibling.Name.</p>
+</div>
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
               <div class="codewrapper">
@@ -224,9 +226,9 @@ E.g. to work with expressions containing a Convert node.
                 </thead>
                 <tbody>
                   <tr>
-                    <td><span class="xref">System.Linq.Expressions.Expression</span>&lt;<span class="xref">System.Func</span>&lt;TDeclaringType, TMember&gt;&gt;</td>
+                    <td><span class="xref">System.Linq.Expressions.Expression&lt;TDelegate&gt;</span>&lt;<span class="xref">System.Func&lt;T, TResult&gt;</span>&lt;TDeclaringType, TMember&gt;&gt;</td>
                     <td><em>expression</em></td>
-                    <td><p sourcefile="api/Extend.ExpressionTDelegateEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The expression pointing to the member.</p>
+                    <td><p>The expression pointing to the member.</p>
 </td>
                   </tr>
                 </tbody>
@@ -276,7 +278,7 @@ E.g. to work with expressions containing a Convert node.
                 <tbody>
                   <tr>
                     <td><span class="xref">System.ArgumentNullException</span></td>
-                    <td><p sourcefile="api/Extend.ExpressionTDelegateEx.yml" sourcestartlinenumber="1" sourceendlinenumber="1">expression can not be null.</p>
+                    <td><p>expression can not be null.</p>
 </td>
                   </tr>
                 </tbody>
